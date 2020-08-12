@@ -1,13 +1,18 @@
 .navbar {
-  background-color: red; 
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
-  background-color: blue;
+  height: 100%;
+  width: auto;
 }
 
 .links {
-  background-color: white;
+  a {
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+  }
 }

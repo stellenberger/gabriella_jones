@@ -4,7 +4,7 @@ import logo from '../../media/logo.svg'
 
 const Navbar = () => {
   return (
-    <nav className={classes.navbar}>
+    <div className={classes.navbar}>
       <div className={classes.logo}>
         <img src={logo} alt="Site Logo"/>
       </div>
@@ -14,7 +14,7 @@ const Navbar = () => {
         <a href="/media">media</a>
         <a href="/contact">contact</a>
       </div>
-    </nav>
+    </div>
   )
 }
 
