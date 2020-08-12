@@ -7,4 +7,4 @@ Set up Google Analytics
 SEO checks
 Set up Strapi
 Set up Rails
-
+How to make the footer sticky on the bottom of the page

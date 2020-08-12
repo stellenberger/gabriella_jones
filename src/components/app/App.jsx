@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Navbar, Landing } from '../index'
+import { Navbar, Landing, Footer } from '../index'
 import classes from './App.module.scss'
 import ReactGa from 'react-ga'
 
@@ -14,6 +14,7 @@ function App() {
       <div className={classes.appContentContainer}>
         <Navbar />
         <Landing />
+        <Footer />
       </div>
   );
 }
