@@ -3,7 +3,7 @@ import { BrowserRouter, Switch, Route} from 'react-router-dom';
 import { Navbar, Landing, About, Schedule, Media, Contact, Footer } from '../index'
 import classes from './App.module.scss'
 import ReactGa from 'react-ga'
-import landingImage from '../../media/landingImage.jpg'
+import landingImage from '../../media/hero.jpg'
 
 function App() {
   useEffect(() => {
@@ -19,9 +19,8 @@ function App() {
         {
           backgroundImage: `url(${landingImage})`,
           backgroundRepeat: 'no-repeat',
-          backgroundSize: 'contain',
-          backgroundSize: '100%',
-          backgroundPosition: 'right 45% '
+          backgroundSize: 'cover',
+          backgroundPosition: 'right 55% '
         }
       ) 
     } else {
