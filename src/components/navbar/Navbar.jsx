@@ -1,6 +1,7 @@
 import React from 'react'
 import classes from './Navbar.module.scss'
 import logo from '../../media/logo.svg'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -10,10 +11,10 @@ const Navbar = () => {
           <img src={logo} alt="Site Logo" className={classes.logo}/>
         </div>
         <div className={classes.links}>
-          <a href="/about">about</a>
-          <a href="/schedule">schedule</a>
-          <a href="/media">media</a>
-          <a href="/contact">contact</a>
+          <Link to='/about'>about</Link>
+          <Link to='/schedule'>schedule</Link>
+          <Link to='/media'>media</Link>
+          <Link to='/contact'>contact</Link>
         </div>
       </div>
     </div>

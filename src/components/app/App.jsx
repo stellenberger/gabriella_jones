@@ -33,9 +33,9 @@ function App() {
   }
   return (
     <div style={styling()}>
-      <Navbar />
-        <div className={classes.appContentContainer}>
-          <BrowserRouter>
+      <BrowserRouter>
+        <Navbar />
+          <div className={classes.appContentContainer}>
             <Switch>
               <Route exact path='/' component={Landing} />
               <Route exact path='/about' component={About} />
@@ -43,9 +43,9 @@ function App() {
               <Route exact path='/media' component={Media} />
               <Route exact path='/contact' component={Contact} />
             </Switch>
-          </BrowserRouter>
-        </div>
-      <Footer />
+          </div>
+        <Footer />
+      </BrowserRouter>
     </div>
     
   );
