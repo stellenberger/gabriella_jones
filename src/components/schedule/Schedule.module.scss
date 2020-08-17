@@ -5,10 +5,16 @@
 
 .yearNavigator {
   width: 10%;
+  margin-top: 5vh;
+  text-align: center;
 }
 
 .year {
   font-size: 20px;
+  padding: 10px;
+  &:hover {
+    background-color: gray;
+  }
 }
 
 .scheduleList {
@@ -50,6 +56,7 @@
 .currentYearTitle {
   text-align: center;
   font-size: 30px;
+  height: 5vh;
   border-bottom: 1px solid black;
   padding-bottom: 10px;
 }
