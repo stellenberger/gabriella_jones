@@ -1,0 +1,26 @@
+.contactContainer {
+  display: flex;
+  margin-top: 5vh;
+}
+
+.contactImage {
+  width: 50%;
+  img {
+    max-width: 300px;
+  }
+}
+
+.contactInformation {
+  width: 50%;
+  height: auto;
+}
+
+.personalContactDetails {
+  margin-top: 40px;
+}
+
+.contactTitle {
+  border-bottom: 2px solid black;
+  max-width: 300px;
+  padding-bottom: 10px;
+}
