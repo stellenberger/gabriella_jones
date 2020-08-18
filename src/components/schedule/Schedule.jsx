@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import classes from './Schedule.module.scss'
-import { withRouter } from 'react-router-dom'
+import concertSchedule from '../../information/concertSchedule.json'
 
 const Schedule = () => {
   const [year, setYear] = useState('2020') // this will hold the current year by default and changes when user selects another year
-  const [allConcerts, setAllConcerts] = useState(null) // this will hold the concerts
   const [currentYearConcerts, setCurrentYearConcerts] = useState([]) // holds concerts of the current year
 
   useEffect(() => {
@@ -16,72 +15,15 @@ const Schedule = () => {
 
 
   const years = [
-    {id: 1, year: '2020'},
-    {id: 2, year: '2019'},
-    {id: 3, year: '2018'},
-    {id: 4, year: '2017'}
+    {id: 1, year: '2021'},
+    {id: 2, year: '2020'},
+    {id: 3, year: '2019'},
+    {id: 4, year: '2018'}
   ] 
 
-  const Concerts = [
-    {
-      id: 1,
-      year: '2020',
-      date: '15th',
-      dateMonth: 'August',
-      city: 'London',
-      venue: "St James' Piccadilly",
-      repertoire: "Bach Chaconne",
-      start_time: '7pm',
-      ticket_link: 'https://www.stephanellenberger.dev'
-    },
-    {
-      id: 2,
-      year: '2020',
-      date: '9th',
-      dateMonth: 'July',
-      city: 'London',
-      venue: "Purcell Room, Southbank Center",
-      repertoire: "More Repertoire",
-      start_time: '7pm',
-      ticket_link: 'https://www.stephanellenberger.dev'
-    },
-    {
-      id: 3,
-      year: '2020',
-      date: '19th',
-      dateMonth: 'May',
-      city: 'New York',
-      venue: "Carnegie Hall",
-      repertoire: "More Repertoire",
-      start_time: '7pm',
-      ticket_link: 'https://www.stephanellenberger.dev'
-    },
-    {
-      id: 4,
-      year: '2019',
-      date: '8th',
-      dateMonth: 'December',
-      city: 'Sydney',
-      venue: "Sydney Opera House",
-      repertoire: "More Repertoire",
-      start_time: '7pm',
-      ticket_link: 'https://www.stephanellenberger.dev'
-    },
-    {
-      id: 5,
-      year: '2019',
-      date: '12th',
-      dateMonth: 'November',
-      city: 'London',
-      venue: "Wigmore Hall",
-      repertoire: "More Repertoire",
-      start_time: '7pm',
-      ticket_link: 'https://www.stephanellenberger.dev'
-    },
-  ]
+  const Concerts = concertSchedule.concerts
 
   const handleYearClick = (year) => {
-    // event.preventDefault()
     setYear(year)
   }
 

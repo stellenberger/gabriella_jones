@@ -18,13 +18,17 @@
 
 .sideNav {
   width: 10%;
-  margin: 0;
+  font-size: 20px;
+  padding: 10px;
   a {
     text-decoration: none;
     color: black;
   }
   .links {
     padding: 10px;
+    &:hover {
+      background-color: gray;
+    }
   }
 }
 
@@ -32,4 +36,37 @@
   width: 85%;
 }
 
+.sponsors {
+  display: flex;
+  justify-content: space-between;
+  img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 50px;
+  }
+}
 
+.awardsContainer {
+  display: flex;
+  justify-content: space-evenly;
+  .highlightedPerformances {
+    .highlightedPerformancesTitle {
+      font-size: 30px;
+    }
+    p {
+      font-size: 20px;
+    }
+    width: 50%;
+    text-align: center;
+  }
+  .awards {
+    .awardsTitle {
+      font-size: 30px;
+    }
+    p {
+      font-size: 20px;
+    }
+    width: 50%;
+    text-align: center;
+  }
+}

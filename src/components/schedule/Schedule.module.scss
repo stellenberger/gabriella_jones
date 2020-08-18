@@ -1,6 +1,7 @@
 .scheduleContainer {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 50px;
 }
 
 .yearNavigator {
@@ -14,6 +15,7 @@
   padding: 10px;
   &:hover {
     background-color: gray;
+    color: white;
   }
 }
 

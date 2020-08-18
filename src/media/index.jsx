@@ -1,3 +1,8 @@
 export { default as Instagram } from './instagram.svg'
 export { default as Twitter } from './twitter.svg'
 export { default as YouTube } from './youtube.svg'
+export { default as aboutPhoto } from './aboutPhoto.jpg'
+export { default as leverhulme } from './leverhulme.png'
+export { default as makingMusic } from './makingMusic.png'
+export { default as parkLane } from './parkLane.png'
+export { default as helpMusicians } from './helpMusicians.png'
