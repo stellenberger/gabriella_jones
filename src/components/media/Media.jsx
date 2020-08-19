@@ -3,7 +3,7 @@ import classes from './Media.module.scss'
 
 const Media = () => {
   return (
-    <div>I am the Media component</div>
+    <div className={classes.mediaContainer}>I am the Media component</div>
   )
 }
 

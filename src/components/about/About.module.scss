@@ -2,7 +2,9 @@
   min-height: 80vh;
   display: flex;
   justify-content: space-between;
-  margin-top: 5%;
+  width: 70%;
+  margin: auto;
+  margin-top: 5vh;
 }
 
 .aboutPhoto {
@@ -28,6 +30,7 @@
     padding: 10px;
     &:hover {
       background-color: gray;
+      color: white
     }
   }
 }
