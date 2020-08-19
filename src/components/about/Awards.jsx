@@ -5,7 +5,7 @@ import soloPerformances from '../../information/highlighted_solo_performances.js
 
 const Awards = () => {
   return (
-    <div className={classes.awardsContainer} id='awards'>
+    <div className={classes.awardsContainer}>
       <span className={classes.awards}>
         <p className={classes.awardsTitle}>Awards</p>
         {awardsInformation.awards.map(award => {

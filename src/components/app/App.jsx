@@ -9,7 +9,7 @@ import landingImage from '../../media/hero.jpg'
 
 function App() {
   const [background, setBackground] = useState(null)
-
+  const [landing, setLanding] = useState(false)
   const backgroundHeroImage = {
     backgroundImage: `url(${landingImage})`,
     backgroundRepeat: 'no-repeat',
@@ -26,7 +26,8 @@ function App() {
       return (
         setBackground(
           backgroundHeroImage
-        )
+        ),
+        setLanding(true)
       ) 
     } else {
       return (
@@ -47,6 +48,7 @@ function App() {
   
 
   const changeColor = (color) => {
+    color !== backgroundHeroImage ? (setLanding(false)) : (setLanding(true))
     setBackground(color)
   }
   return (
@@ -74,7 +76,7 @@ function App() {
               <Route exact path='/contact' component={Contact} />
             </Switch>
           </div>
-        <Footer />
+          <Footer />
       </BrowserRouter>
     </div>
     

@@ -1,11 +1,16 @@
 .footer {
   background-color: rgba($color: #000000, $alpha: 0.64); 
   display: flex;
-  justify-content: center;
   position: sticky; 
   left: 0 ; right: 0; bottom: 0; 
-  height: auto; 
+  height: 10vh; 
+  align-items: center;
   img {
-    padding: 20px;
+    padding: 1em;
+  }
+  .socialLinks {
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 }
