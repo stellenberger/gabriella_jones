@@ -1,4 +1,37 @@
 .mediaContainer {
+  min-height: 80vh;
+  display: flex;
+  justify-content: space-between;
   width: 70%;
   margin: auto;
+  margin-top: 5vh;
+}
+
+.mediaNavigator {
+  width: 10%;
+  font-size: 20px;
+  padding: 10px;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .links {
+    padding: 10px;
+    &:hover {
+      background-color: gray;
+      color: white
+    }
+  }
+}
+.media {
+  width: 85%;
+}
+
+.mediaTitle {
+  width: 80%;
+  margin: auto;
+  font-size: 30px;
+  border-bottom: 1px solid black;
+  text-align: center;
+  padding-bottom: 10px;
 }

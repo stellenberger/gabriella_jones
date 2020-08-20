@@ -6,10 +6,10 @@ import { leverhulme, helpMusicians, makingMusic, parkLane } from '../../media'
 const Sponsors = () => {
   return (
     <div className={classes.sponsors}>
-      <img src={leverhulme} alt=""/>
-      <img src={helpMusicians} alt=""/>
-      <img src={makingMusic} alt=""/>
-      <img src={parkLane} alt=""/>
+      <a href="https://www.leverhulme.ac.uk/"><img src={leverhulme} alt=""/></a>
+      <a href="https://www.helpmusicians.org.uk/"><img src={helpMusicians} alt=""/></a>
+      <a href="https://www.makingmusic.org.uk/"><img src={makingMusic} alt=""/></a>
+      <a href="https://www.parklanegroup.co.uk/"><img src={parkLane} alt=""/></a>
     </div>
   )
 }
