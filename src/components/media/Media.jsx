@@ -2,8 +2,7 @@ import React, { useState } from 'react'
 import classes from './Media.module.scss'
 import { Videos, Photos, Audio } from './index.jsx'
 const Media = () => {
-  const [subPage, setSubPage] = useState('photos')
-
+  const [subPage, setSubPage] = useState('Photos')
   const handleClick = (page) => {
     setSubPage(page)
   }
