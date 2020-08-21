@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter, Switch, Route} from 'react-router-dom';
-import { Landing, About, Schedule, Media, Contact, Footer } from '../index'
+import { Landing, About, Schedule, Media, Contact, Footer, Burger } from '../index'
 import logo from '../../media/logo.svg'
 import { Link } from 'react-router-dom'
 import classes from './App.module.scss'
@@ -56,12 +56,13 @@ function App() {
           <div className={classes.logoContainer}>
             <Link to='/'><img src={logo} alt="Site Logo" className={classes.logo} onClick={() => changeColor(backgroundHeroImage)}/></Link>
           </div>
-          <div className={classes.links}>
-            <Link to='/about' onClick={() => changeColor(backgroundColor)}>about</Link>
-            <Link to='/schedule' onClick={() => changeColor(backgroundColor)}>schedule</Link>
-            <Link to='/media' onClick={() => changeColor(backgroundColor)}>media</Link>
-            <Link to='/contact' onClick={() => changeColor(backgroundColor)}>contact</Link>
-          </div>
+          <ul className={classes.links}>
+            <li><Link to='/about' onClick={() => changeColor(backgroundColor)}>about</Link></li>
+            <li><Link to='/schedule' onClick={() => changeColor(backgroundColor)}>schedule</Link></li>
+            <li><Link to='/media' onClick={() => changeColor(backgroundColor)}>media</Link></li>
+            <li><Link to='/contact' onClick={() => changeColor(backgroundColor)}>contact</Link></li>
+          </ul>
+          <Burger />
         </div>
       </div>
           <div className={classes.appContentContainer}>
