@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter, Switch, Route} from 'react-router-dom';
-import { Landing, About, Schedule, Media, Contact, Footer, Burger } from '../index'
-import logo from '../../media/logo.svg'
-import { Link } from 'react-router-dom'
+import { Landing, About, Schedule, Media, Contact, Footer, Topnav } from '../index'
 import classes from './App.module.scss'
 import ReactGa from 'react-ga'
 import landingImage from '../../media/hero.jpg'
@@ -51,20 +49,7 @@ function App() {
   return (
     <div style={background}>
       <BrowserRouter>
-        <div className={classes.navbar}>
-        <div className={classes.navbarContent}>
-          <div className={classes.logoContainer}>
-            <Link to='/'><img src={logo} alt="Site Logo" className={classes.logo} onClick={() => changeColor(backgroundHeroImage)}/></Link>
-          </div>
-          <ul className={classes.links}>
-            <li><Link to='/about' onClick={() => changeColor(backgroundColor)}>about</Link></li>
-            <li><Link to='/schedule' onClick={() => changeColor(backgroundColor)}>schedule</Link></li>
-            <li><Link to='/media' onClick={() => changeColor(backgroundColor)}>media</Link></li>
-            <li><Link to='/contact' onClick={() => changeColor(backgroundColor)}>contact</Link></li>
-          </ul>
-          <Burger />
-        </div>
-      </div>
+      <Topnav changeColor={changeColor} />
           <div className={classes.appContentContainer}>
             <Switch>
               <Route exact path='/' component={Landing} />

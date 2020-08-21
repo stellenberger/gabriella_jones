@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-import classes from './Burger.module.scss'
+import { RightNav } from '../index'
 
 const StyledBurger = styled.div`
   width: 2rem;
@@ -8,9 +8,15 @@ const StyledBurger = styled.div`
   position: fixed;
   top: 15px;
   right: 20px;
-  display: flex;
+  
+  z-index: 20;
+  display: none;
+
+  @media (max-width: 768px) {
+    display: flex;
   justify-content: space-around;
   flex-flow: column nowrap;
+  }
   div {
     width: 2rem;
     height: 0.25rem;
@@ -32,7 +38,7 @@ const StyledBurger = styled.div`
   }
 `
 
-const Burger = () => {
+const Burger = ({ backgroundColor, changeColor }) => {
   const [open, setOpen] = useState(false)
 
   return (
@@ -42,6 +48,7 @@ const Burger = () => {
         <div />
         <div />
       </StyledBurger>
+      <RightNav backgroundColor={backgroundColor} changeColor={changeColor} open={open} />
     </>
   )
 }
