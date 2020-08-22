@@ -6,6 +6,7 @@ const Ul = styled.ul`
     list-style: none;
     display: flex;
     flex-flow: row nowrap;
+    align-items: center;
     a {
       text-decoration: none;
       color: white;
@@ -22,17 +23,17 @@ const Ul = styled.ul`
       right: 0;
       height: 100vh;
       width: 100vw;
-      padding-top: 3.5rem;
+      padding-top: 10rem;
+      margin: 0;
       transition: transform 0.3s ease-in-out;
       li {
         padding-top: 30px;
         color: white;
-        font-size: 25px;
+        font-size: 35px;
       }
     }
   `
 const RightNav = ({ changeColor, backgroundColor, open }) => {
-
   
   return (
     <Ul open={open}>

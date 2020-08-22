@@ -9,13 +9,13 @@ const StyledBurger = styled.div`
   top: 15px;
   right: 20px;
   
-  z-index: 20;
+  z-index: 200;
   display: none;
 
   @media (max-width: 768px) {
     display: flex;
-  justify-content: space-around;
-  flex-flow: column nowrap;
+    justify-content: space-around;
+    flex-flow: column nowrap;
   }
   div {
     width: 2rem;
@@ -48,7 +48,9 @@ const Burger = ({ backgroundColor, changeColor }) => {
         <div />
         <div />
       </StyledBurger>
-      <RightNav backgroundColor={backgroundColor} changeColor={changeColor} open={open} />
+      <div onClick={() => setOpen(!open)}>
+        <RightNav backgroundColor={backgroundColor} changeColor={changeColor} open={open} />
+      </div>
     </>
   )
 }

@@ -32,7 +32,8 @@
   padding: 10px;
   @media screen and (max-width: 786px) {
     width: 100%;
-    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
   }
   a {
     text-decoration: none;
