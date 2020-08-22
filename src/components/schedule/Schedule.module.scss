@@ -4,12 +4,23 @@
   margin: auto;
   justify-content: space-between;
   margin-bottom: 50px;
+  @media screen and (max-width: 786px) {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+  }
 }
 
 .yearNavigator {
   width: 10%;
   margin-top: 5vh;
   text-align: center;
+  @media screen and (max-width: 786px) {
+    width: 100%;
+    padding: 0;
+    display: flex;
+  }
 }
 
 .year {
@@ -19,10 +30,16 @@
     background-color: gray;
     color: white;
   }
+  @media screen and (max-width: 786px) {
+    width: 50%;
+  }
 }
 
 .scheduleList {
   width: 80%;
+  @media screen and (max-width: 786px) {
+    width: 100%;
+  }
 }
 
 .scheduleCard {
@@ -37,6 +54,9 @@
     border: 3px solid black;
     padding: 8px 7px 7px 7px;
   }
+  @media screen and (max-width: 786px) {
+    display: block;
+  }
 }
 
 .concertDate {
@@ -45,10 +65,16 @@
   span {
     font-size: 30px;
   }
+  @media screen and (max-width: 786px) {
+    width: 100%;
+  }
 }
 
 .concertInformation {
-  width: 60%
+  width: 60%;
+  @media screen and (max-width: 786px) {
+    width: 100%;
+  }
 }
 
 .buyTickets {
@@ -64,4 +90,7 @@
   height: 5vh;
   border-bottom: 1px solid black;
   padding-bottom: 10px;
+  @media screen and (max-width: 786px) {
+    border-bottom: none;
+  }
 }
