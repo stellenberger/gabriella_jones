@@ -18,6 +18,7 @@
   padding-left: 10px;
   @media screen and (max-width: 786px) {
     width: 100%;
+    margin-bottom: 10px;
   }
 }
 
@@ -123,4 +124,37 @@
     text-align: center;
     
   }
+}
+
+.repertoireTitle {
+  margin: auto;
+  font-size: 25px;
+  border-bottom: 1px solid black;
+  width: 70%;
+  padding: 5px;
+  text-align: center;
+  @media screen and (max-width: 786px) {
+    width: 100%;
+    margin-top: 10px;
+    border-top: 1px solid black;
+  }
+}
+
+.repertoireTypeTitle {
+  @extend .repertoireTitle;
+  margin-top: 1em;
+  font-size: 20px;
+}
+
+.repertoireName {
+  text-align: center;
+}
+
+.adeuxTitle {
+  @extend .repertoireTitle;
+}
+
+.adeuxPhoto {
+  @extend .aboutPhoto;
+  margin-top: 1em;
 }

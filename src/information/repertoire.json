@@ -1,0 +1,85 @@
+{
+  "repertoire": [
+    {
+      "solo": [
+        {"piece": "Suite for Harp", "composer": "Britten"},
+        {"piece": "Divertissement a la Française", "composer": "Caplet"},
+        {"piece": "Rhaspodie Pour La Harpe", "composer": "Grandjany"},
+        {"piece": "Colorado Trail", "composer": "Grandjany"},
+        {"piece": "Improptu pour la harpe", "composer": "Faure"},
+        {"piece": "Sonata for Harp", "composer": "Hindemith"},
+        {"piece": "Improptu Caprice", "composer": "Pierne"},
+        {"piece": "Deuxieme Ballade", "composer": "Renie"},
+        {"piece": "Piece Symphonique", "composer": "Renie"},
+        {"piece": "Sarabanda e Toccata", "composer": "Rota"},
+        {"piece": "Impromptu", "composer": "Roussel"},
+        {"piece": "Bygeilo'r Gwenith Gwyn", "composer": "Thomas"},
+        {"piece": "Images Suite No 4", "composer": "Tournier"},
+        {"piece": "Pastels du Vieux Japon", "composer": "Tournier"},
+        {"piece": "Vers La Source Dans Le Bois", "composer": "Tournier"}
+      ],
+      "soloTranscriptions": [
+        {"piece": "Images Oubliees: Lent", "composer": "Debussy"},
+        {"piece": "Clair de Lune", "composer": "Debussy"},
+        {"piece": "Preuldes Book 2 Bryues", "composer": "Debussy"},
+        {"piece": "Reverie", "composer": "Debussy"},
+        {"piece": "HWV-440 in B-major", "composer": "G F Handel"},
+        {"piece": "Liebestraume No. 3", "composer": "Liszt"},
+        {"piece": "In the Mists", "composer": "Janacek"},
+        {"piece": "Prelude in A Minor", "composer": "Ravel"},
+        {"piece": "Sonata in A Major K208", "composer": "Scarlatti"},
+        {"piece": "Doumka", "composer": "Tchaikovsky"}
+      ],
+      "concerti": [
+        {"piece": "Concerto in C Major", "composer": "Boieldieu"},
+        {"piece": "Conte Fantastique", "composer": "Caplet"},
+        {"piece": "Concerto in A Major", "composer": "Dittersdorf"},
+        {"piece": "Harp Concerto", "composer": "Gliere"},
+        {"piece": "Concerto in B Flat", "composer": "Handel"},
+        {"piece": "Introduction and Allegro", "composer": "Ravel"},
+        {"piece": "Concierto de Aranjuez", "composer": "Rodrigo"},
+        {"piece": "Crossing the Stone Suite for Two Harps", "composer": "Jenkins"},
+        {"piece": "Concerto for Flute and Harp in C Major", "composer": "Mozart"}
+      ],
+      "contemporaryMusic": [
+        {"piece": "Awuya", "composer": "Beamish"},
+        {"piece": "The Crowd", "composer": "Birtwistle"},
+        {"piece": "Vision in Twilight", "composer": "Bynes"},
+        {"piece": "Bamyan", "composer": "Hersant"},
+        {"piece": "Sequenza for Harp", "composer": "Holliger"},
+        {"piece": "La Madone", "composer": "Lizotte"},
+        {"piece": "Suite Galactique", "composer": "Lizzote"},
+        {"piece": "La Madone", "composer": "Lizzote"},
+        {"piece": "Spiders", "composer": "Patterson"},
+        {"piece": "Lizards", "composer": "Patterson"},
+        {"piece": "Bugs", "composer": "Patterson"},
+        {"piece": "Nighthawks", "composer": "Pepin"},
+        {"piece": "The Crown of Ariadne", "composer": "Murry-Schafer"},
+        {"piece": "Crossing Waves", "composer": "Scott"},
+        {"piece": "Silenzio", "composer": "Spagola"},
+        {"piece": "The Drowning of Capel Celyn", "composer": "Stimpson"}
+      ],
+      "harpChoir": [
+        {"piece": "Chichester Psalms", "composer": "Bernstein"},
+        {"piece": "Four Songs Opus 14", "composer": "Brahams"},
+        {"piece": "A Ceremony of Carols", "composer": "Britten"},
+        {"piece": "Otčenás", "composer": "Janáček"}
+      ],
+      "chamberMusic": [
+        {"piece": "Sonata in E Minor", "composer": "Bach"},
+        {"piece": "Carmen Fantasy for Flute and Harp", "composer": "Bizet/Bourne"},
+        {"piece": "Concertino for Flute and Harp", "composer": "Chaminade"},
+        {"piece": "Suite en Duo", "composer": "Cras"},
+        {"piece": "Sonata for Flute, Harp and Viola", "composer": "Debussy"},
+        {"piece": "Petit Suite", "composer": "Debussy"},
+        {"piece": "Sonata in A Major", "composer": "Faure"},
+        {"piece": "In Ireland for Flute and Harp", "composer": "Harty"},
+        {"piece": "Sonata for Flute and Harp", "composer": "Libermann"},
+        {"piece": "Canonic Lullaby", "composer": "Patterson"},
+        {"piece": "Histoire du Tango", "composer": "Piazolla"},
+        {"piece": "Carnival of Venice for Flute and Harp", "composer": "null"},
+        {"piece": "Sonta for Flute and Harp", "composer": "Shaposhnikov"}
+      ]
+    }
+  ]
+}
