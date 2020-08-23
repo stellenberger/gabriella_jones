@@ -12,6 +12,9 @@
   height: 20vh;
   position: absolute;
   margin-top: 60vh;
+  @media screen and (max-width: 786px){
+    position: relative;
+  }
   .quote {
     width: 90%;
     margin: auto;
