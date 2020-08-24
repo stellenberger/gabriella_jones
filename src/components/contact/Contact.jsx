@@ -2,8 +2,8 @@ import React from 'react'
 import classes from './Contact.module.scss'
 import contactImage from '../../media/contactImage.jpg'
 const Contact = () => {
-  const managementDetails = [{name: 'John Smith', mobile_number: '+44 7893 944 031', email: 'john@smith.com'}]
-  const personalDetails = [{name: 'Gabriella Jones', mobile_number: '+44 7893 944 031', email: 'gsjones@btinternet.com'}]
+  const managementDetails = [{name: 'Making Music', mobile_number: 'Details to be uploaded shortly', email: ''}]
+  const personalDetails = [{name: 'Gabriella Jones', mobile_number: '', email: 'gjonesharp@gmail.com'}]
   return (
     <div className={classes.contactContainer}>
       <div className={classes.contactImage}>
