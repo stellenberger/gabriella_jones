@@ -1,5 +1,7 @@
 import React from 'react'
 import classes from './Media.module.scss'
+import ReactPlayer from 'react-player';
+import audio_links from '../../information/audio_links.json'
 
 const Audio = () => {
   
@@ -7,7 +9,9 @@ const Audio = () => {
     <div>
       <p className={classes.mediaTitle}>Audio</p>
       <div className={classes.audioContainer}>
-        <p>Please check back soon for audio.</p>
+        {audio_links.map(audio => {
+            return <ReactPlayer className={classes.video} url={audio.audio_link} width="100%" height="45vh" />
+          })}
       </div>
     </div>
   )
