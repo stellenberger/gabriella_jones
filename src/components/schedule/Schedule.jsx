@@ -47,11 +47,11 @@ const Schedule = () => {
                 <p><span>{concert.date}</span> {concert.dateMonth}</p>
               </div>
               <div className={classes.concertInformation}>
-                <p>{concert.city}</p>
+                <p className={classes.city}>{concert.city}</p>
                 <p>{concert.venue}</p>
                 <p>{concert.repertoire}</p>
                 <p>{concert.start_time}</p>
-                <a href={concert.ticket_link} className={classes.buyTickets}>Buy Tickets</a>
+                <a href={concert.ticket_link} className={classes.buyTickets}>More Information</a>
               </div>
             </div>
           )
