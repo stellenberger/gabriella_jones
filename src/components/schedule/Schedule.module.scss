@@ -29,6 +29,7 @@
   &:hover {
     background-color: gray;
     color: white;
+    transition: 0.5s;
   }
   @media screen and (max-width: 786px) {
     width: 50%;
