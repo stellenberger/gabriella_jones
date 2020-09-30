@@ -35,7 +35,7 @@ function App() {
   }
   useEffect(() => {
     styling()
-    ReactGa.initialize('XX-XXXXXXXX-XX')
+    ReactGa.initialize('UA-175013754-2')
 
     // to report page view
     ReactGa.pageview(window.location.pathname + window.location.search)
