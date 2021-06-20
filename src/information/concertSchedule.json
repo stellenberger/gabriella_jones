@@ -13,14 +13,25 @@
     },
     {
       "id": "1",
-      "date": "18th",
-      "dateMonth": "October",
+      "date": "11th",
+      "dateMonth": "July",
+      "year": "2021",
+      "city": "Westleton",
+      "venue": "Tallis Chamber Orchestra",
+      "repertoire": "Solo: Debussy Danses",
+      "start_time": "7pm",
+      "ticket_link": "https://www.tco.org.uk/home"
+    },
+    {
+      "id": "1",
+      "date": "21st",
+      "dateMonth": "July",
       "year": "2021",
       "city": "London",
-      "venue": "Royal Victoria Order, The Garrick Club",
-      "repertoire": "Recital",
+      "venue": "Music on the Green",
+      "repertoire": "A Deux Duo Recital",
       "start_time": "7pm",
-      "ticket_link": "https://www.garrickclub.co.uk/"
+      "ticket_link": "https://www.esherparish.org.uk/?q=content/music-green"
     },
     {
       "id": "1",
@@ -46,25 +57,14 @@
     },
     {
       "id": "1",
-      "date": "21st",
-      "dateMonth": "July",
+      "date": "18th",
+      "dateMonth": "October",
       "year": "2021",
       "city": "London",
-      "venue": "Music on the Green",
-      "repertoire": "A Deux Duo Recital",
+      "venue": "Royal Victoria Order, The Garrick Club",
+      "repertoire": "Recital",
       "start_time": "7pm",
-      "ticket_link": "https://www.esherparish.org.uk/?q=content/music-green"
-    },
-    {
-      "id": "1",
-      "date": "11th",
-      "dateMonth": "July",
-      "year": "2021",
-      "city": "Westleton",
-      "venue": "Tallis Chamber Orchestra",
-      "repertoire": "Solo: Debussy Danses",
-      "start_time": "7pm",
-      "ticket_link": "https://www.tco.org.uk/home"
+      "ticket_link": "https://www.garrickclub.co.uk/"
     },
     {
       "id": "1",
