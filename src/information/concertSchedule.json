@@ -13,8 +13,8 @@
     },
     {
       "id": "1",
-      "date": "29th",
-      "dateMonth": "March",
+      "date": "18th",
+      "dateMonth": "October",
       "year": "2021",
       "city": "London",
       "venue": "Royal Victoria Order, The Garrick Club",
@@ -24,8 +24,8 @@
     },
     {
       "id": "1",
-      "date": "17th",
-      "dateMonth": "March",
+      "date": "Autumn",
+      "dateMonth": "TBC",
       "year": "2021",
       "city": "Haslemere",
       "venue": "Haslemere Music Society",
@@ -35,14 +35,36 @@
     },
     {
       "id": "1",
-      "date": "TBC",
-      "dateMonth": "",
+      "date": "27th",
+      "dateMonth": "September",
       "year": "2021",
       "city": "Huddersfield",
       "venue": "Huddersfield Music Society",
-      "repertoire": "A Deaux Duo Recital",
+      "repertoire": "A Deux Duo Recital",
       "start_time": "7pm",
       "ticket_link": "http://www.huddersfield-music-society.org.uk/"
+    },
+    {
+      "id": "1",
+      "date": "21st",
+      "dateMonth": "July",
+      "year": "2021",
+      "city": "London",
+      "venue": "Music on the Green",
+      "repertoire": "A Deux Duo Recital",
+      "start_time": "7pm",
+      "ticket_link": "https://www.esherparish.org.uk/?q=content/music-green"
+    },
+    {
+      "id": "1",
+      "date": "11th",
+      "dateMonth": "July",
+      "year": "2021",
+      "city": "Westleton",
+      "venue": "Tallis Chamber Orchestra",
+      "repertoire": "Solo: Debussy Danses",
+      "start_time": "7pm",
+      "ticket_link": "https://www.tco.org.uk/home"
     },
     {
       "id": "1",
