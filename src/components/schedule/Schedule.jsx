@@ -3,7 +3,7 @@ import classes from './Schedule.module.scss'
 import concertSchedule from '../../information/concertSchedule.json'
 
 const Schedule = () => {
-  const [year, setYear] = useState('2021') // this will hold the current year by default and changes when user selects another year
+  const [year, setYear] = useState((new Date().getFullYear()).toString()) // this will hold the current year by default and changes when user selects another year
   const [currentYearConcerts, setCurrentYearConcerts] = useState([]) // holds concerts of the current year
 
   useEffect(() => {
@@ -15,10 +15,11 @@ const Schedule = () => {
 
 
   const years = [
-    {id: 1, year: '2021'},
-    {id: 2, year: '2020'},
-    {id: 3, year: '2019'},
-    {id: 4, year: '2018'}
+    {id: 1, year: '2022'},
+    {id: 2, year: '2021'},
+    {id: 3, year: '2020'},
+    {id: 4, year: '2019'},
+    {id: 5, year: '2018'}
   ] 
 
   const Concerts = concertSchedule.concerts

@@ -13,6 +13,17 @@
     },
     {
       "id": "1",
+      "date": "6th",
+      "dateMonth": "May",
+      "year": "2022",
+      "city": "London",
+      "venue": "St. Brides",
+      "repertoire": "A Deux Duo Lunchtime Recital",
+      "start_time": "1.05pm",
+      "ticket_link": "https://www.stbrides.com/worship-music/music/st-brides-choir-and-singers/"
+    },
+    {
+      "id": "1",
       "date": "11th",
       "dateMonth": "July",
       "year": "2021",
