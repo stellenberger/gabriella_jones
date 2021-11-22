@@ -40,9 +40,7 @@ function App() {
     // to report page view
     ReactGa.pageview(window.location.pathname + window.location.search)
   }, [])
-  console.log(window.location.pathname)
-  
-
+ 
   const changeColor = (color) => {
     setBackground(color)
   }
