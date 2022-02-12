@@ -14,17 +14,6 @@
     },
     {
       "id": "1",
-      "date": "26th",
-      "dateMonth": "January",
-      "year": "2022",
-      "city": "London",
-      "venue": "St James' Piccadilly",
-      "repertoire": "Solo Recital",
-      "start_time": "1.10pm",
-      "ticket_link": "https://www.sjp.org.uk/"
-    },
-    {
-      "id": "1",
       "date": "12th",
       "dateMonth": "February",
       "year": "2022",
@@ -33,6 +22,17 @@
       "repertoire": "Ealing Symphony Orchestra",
       "start_time": "7.30pm",
       "ticket_link": "https://www.ealingso.org.uk/"
+    },
+    {
+      "id": "1",
+      "date": "27th",
+      "dateMonth": "February",
+      "year": "2022",
+      "city": "London",
+      "venue": "Royal Orchestral Society",
+      "repertoire": "Solo Recital, featuring World Premiere of work by Judith Weir",
+      "start_time": "6pm",
+      "ticket_link": "https://www.royalorchestralsociety.org.uk/"
     },
     {
       "id": "1",
@@ -80,7 +80,7 @@
     },
     {
       "id": "1",
-      "date": "26th",
+      "date": "16th",
       "dateMonth": "May",
       "year": "2022",
       "city": "Surrey",
@@ -88,6 +88,17 @@
       "repertoire": "A Deux Duo Recital",
       "start_time": "1pm",
       "ticket_link": "https://stmarysstokedabernon.org.uk/music-concerts/concerts/"
+    },
+    {
+      "id": "1",
+      "date": "2nd",
+      "dateMonth": "July",
+      "year": "2022",
+      "city": "Faversham",
+      "venue": "Faversham",
+      "repertoire": "A Deux Duo Recital",
+      "start_time": "10.45am",
+      "ticket_link": "https://www.facebook.com/classicalcoffeeconcerts/"
     },
     {
       "id": "1",
