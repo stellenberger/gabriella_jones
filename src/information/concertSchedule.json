@@ -25,6 +25,17 @@
     },
     {
       "id": "1",
+      "date": "12th",
+      "dateMonth": "February",
+      "year": "2022",
+      "city": "London",
+      "venue": "St Barnabus Church, Ealing",
+      "repertoire": "Ealing Symphony Orchestra",
+      "start_time": "7.30pm",
+      "ticket_link": "https://www.ealingso.org.uk/"
+    },
+    {
+      "id": "1",
       "date": "23rd",
       "dateMonth": "March",
       "year": "2022",
@@ -55,6 +66,17 @@
       "repertoire": "A Deux Duo Lunchtime Recital",
       "start_time": "1.05pm",
       "ticket_link": "https://www.stbrides.com/worship-music/music/st-brides-choir-and-singers/"
+    },
+    {
+      "id": "1",
+      "date": "14th",
+      "dateMonth": "May",
+      "year": "2022",
+      "city": "London",
+      "venue": "Finchley",
+      "repertoire": "Chichester Psalms",
+      "start_time": "7.30pm",
+      "ticket_link": "https://www.fcchoir.co.uk/"
     },
     {
       "id": "1",
