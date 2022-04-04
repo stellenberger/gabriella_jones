@@ -58,6 +58,28 @@
     },
     {
       "id": "1",
+      "date": "9th",
+      "dateMonth": "April",
+      "year": "2022",
+      "city": "London",
+      "venue": "Battersea Choral Society",
+      "repertoire": "Ein Deutsches Requiem",
+      "start_time": "7:30pm",
+      "ticket_link": "http://www.batterseachoralsociety.org/"
+    },
+    {
+      "id": "1",
+      "date": "28th",
+      "dateMonth": "April",
+      "year": "2022",
+      "city": "Surrey",
+      "venue": "St Mary's Church, Stoke D'Abernon",
+      "repertoire": "A Deux Duo Recital",
+      "start_time": "1pm",
+      "ticket_link": "https://stmarysstokedabernon.org.uk/music-concerts/concerts/"
+    },
+    {
+      "id": "1",
       "date": "6th",
       "dateMonth": "May",
       "year": "2022",
@@ -73,21 +95,10 @@
       "dateMonth": "May",
       "year": "2022",
       "city": "London",
-      "venue": "Finchley",
+      "venue": "Finchley Choral Society",
       "repertoire": "Chichester Psalms",
       "start_time": "7.30pm",
       "ticket_link": "https://www.fcchoir.co.uk/"
-    },
-    {
-      "id": "1",
-      "date": "16th",
-      "dateMonth": "May",
-      "year": "2022",
-      "city": "Surrey",
-      "venue": "St Mary's Church, Stoke D'Abernon",
-      "repertoire": "A Deux Duo Recital",
-      "start_time": "1pm",
-      "ticket_link": "https://stmarysstokedabernon.org.uk/music-concerts/concerts/"
     },
     {
       "id": "1",
@@ -99,6 +110,39 @@
       "repertoire": "A Deux Duo Recital",
       "start_time": "10.45am",
       "ticket_link": "https://www.facebook.com/classicalcoffeeconcerts/"
+    },
+    {
+      "id": "1",
+      "date": "14th",
+      "dateMonth": "July",
+      "year": "2022",
+      "city": "Lichfield",
+      "venue": "Lichfield Festival",
+      "repertoire": "Gemini Ensemble",
+      "start_time": "8pm",
+      "ticket_link": "https://lichfieldfestival.org/event/beyond-the-garden/"
+    },
+    {
+      "id": "1",
+      "date": "26th",
+      "dateMonth": "July",
+      "year": "2022",
+      "city": "Hereford",
+      "venue": "3 Choirs Festival",
+      "repertoire": "",
+      "start_time": "11am",
+      "ticket_link": "https://3choirs.org/events/two-souls-in-one"
+    },
+    {
+      "id": "1",
+      "date": "27th",
+      "dateMonth": "July",
+      "year": "2022",
+      "city": "Hereford",
+      "venue": "3 Choirs Festival",
+      "repertoire": "Gemini Ensemble",
+      "start_time": "10:15pm",
+      "ticket_link": "https://3choirs.org/events/beyond-the-garden"
     },
     {
       "id": "1",
