@@ -13,6 +13,7 @@ const Biography = () => {
             <span>{section.paragraph}<br/><br/></span>
           )
         })}</p>
+        <p>&copy; This information is copyrighted and cannot be used for programme notes or other publications without the artist's consent. Please contact Gabriella directly for relevant information.</p>
     </div>
   )
 }
