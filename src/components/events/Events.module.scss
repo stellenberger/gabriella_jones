@@ -1,0 +1,46 @@
+.eventsContainer {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  @media screen and (max-width: 786px) {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+  }
+}
+
+.sideNav {
+  width: 10%;
+  font-size: 15px;
+  padding: 10px;
+  @media screen and (max-width: 786px) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    @media screen and (max-width: 786px) {
+      width: 50%;
+    }
+  }
+  .links {
+    padding: 10px;
+    &:hover {
+      background-color: gray;
+      color: white;
+      transition: 0.5s;
+    }
+    @media screen and (max-width: 786px) {
+      font-size: 20px;
+      &:hover {
+        transition: 0s;
+      }
+    }
+  }
+}

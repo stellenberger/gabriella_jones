@@ -39,6 +39,7 @@ const RightNav = ({ changeColor, backgroundColor, open }) => {
     <Ul open={open}>
       <li><Link to='/about' onClick={() => changeColor(backgroundColor)}>about</Link></li>
       <li><Link to='/schedule' onClick={() => changeColor(backgroundColor)}>schedule</Link></li>
+      <li><Link to='/luxury-events' onClick={() => changeColor(backgroundColor)}>luxury events</Link></li>
       <li><Link to='/media' onClick={() => changeColor(backgroundColor)}>media</Link></li>
       <li><Link to='/contact' onClick={() => changeColor(backgroundColor)}>contact</Link></li>
     </Ul>
