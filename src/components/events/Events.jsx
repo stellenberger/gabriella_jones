@@ -14,7 +14,7 @@ export default function Events() {
   const loadPage = () => {
     switch (subPage) {
       case 'clients':
-        return <Clients />;
+        return <Clients/>;
       case 'experience':
         return <Experience />;
       case 'get-in-touch':
@@ -26,11 +26,11 @@ export default function Events() {
   return (
     <div className={classes.eventsContainer}>
       <div className={classes.sideNav}>
-        <a href="/about#clients" onClick={() => handleClick('clients')}><div className={classes.links}>Clients</div></a>
-        <a href="/about#experience" onClick={() => handleClick('experience')}><div className={classes.links}>Experience</div></a>
-        <a href="/about#get-in-touch" onClick={() => handleClick('get-in-touch')}><div className={classes.links}>Get in touch</div></a>
+        <a href="/luxury-events#clients" onClick={() => handleClick('clients')}><div className={classes.links}>Clients</div></a>
+        <a href="/luxury-events#experience" onClick={() => handleClick('experience')}><div className={classes.links}>Experience</div></a>
+        <a href="/luxury-events#get-in-touch" onClick={() => handleClick('get-in-touch')}><div className={classes.links}>Get in touch</div></a>
       </div>
-      <div className={classes.aboutContent}>
+      <div className={classes.eventsContent}>
         { loadPage() }
       </div>
     </div>
