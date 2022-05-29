@@ -157,6 +157,28 @@
     },
     {
       "id": "1",
+      "date": "23rd",
+      "dateMonth": "October",
+      "year": "2022",
+      "city": "Gloucester",
+      "venue": "",
+      "repertoire": "Solo Recital",
+      "start_time": "3pm",
+      "ticket_link": "https://www.gloucestermusicsociety.org.uk/"
+    },
+    {
+      "id": "1",
+      "date": "27th",
+      "dateMonth": "November",
+      "year": "2022",
+      "city": "Bournemouth",
+      "venue": "",
+      "repertoire": "Solo Recital",
+      "start_time": "3pm",
+      "ticket_link": "https://www.bournemouthchambermusic.co.uk/"
+    },
+    {
+      "id": "1",
       "date": "",
       "dateMonth": "TBC",
       "year": "2020",
