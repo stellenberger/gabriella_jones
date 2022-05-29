@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter, Switch, Route} from 'react-router-dom';
-import { Landing, About, Schedule, Media, Contact, Footer, Topnav } from '../index'
+import { Landing, About, Schedule, Media, Contact, Footer, Topnav, Events } from '../index'
 import classes from './App.module.scss'
 import ReactGa from 'react-ga'
 import landingImage from '../../media/hero.jpg'
@@ -57,6 +57,7 @@ function App() {
               <Route exact path='/schedule' component={Schedule} />
               <Route exact path='/media' component={Media} />
               <Route exact path='/contact' component={Contact} />
+              <Route exact path='/luxury-events' component={Events} />
             </Switch>
           </div>
           <Footer />

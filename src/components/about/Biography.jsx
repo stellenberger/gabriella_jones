@@ -4,7 +4,6 @@ import { aboutPhoto } from '../../media'
 import biography from '../../information/biography.json'
 
 const Biography = () => {
-  console.log(biography)
   return (
       <div>
         <img src={aboutPhoto} alt="gabriella jones standing at the harp" className={classes.aboutPhoto}/>

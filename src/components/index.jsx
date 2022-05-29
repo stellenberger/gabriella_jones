@@ -7,3 +7,4 @@ export { default as Footer } from './footer/Footer';
 export { default as Topnav } from './navbar/Topnav';
 export { default as Burger } from './navbar/Burger';
 export { default as RightNav } from './navbar/RightNav';
+export { default as Events } from './events/Events';
