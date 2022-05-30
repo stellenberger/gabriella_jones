@@ -13,9 +13,8 @@
 }
 
 .sideNav {
-  width: 10%;
+  width: 20%;
   font-size: 15px;
-  padding: 10px;
   @media screen and (max-width: 786px) {
     width: 100%;
     display: flex;
@@ -80,3 +79,11 @@
   text-align: center;
   padding-bottom: 10px;
 }
+
+.experienceContainer {
+  .experienceParagraph {
+    text-align: justify;
+  }
+  padding: 10px;
+}
+

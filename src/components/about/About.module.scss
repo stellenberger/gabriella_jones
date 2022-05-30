@@ -25,6 +25,7 @@
 .aboutBio {
   line-height: 25px;
   margin: 0;
+  text-align: justify;
 }
 
 .sideNav {
@@ -170,4 +171,8 @@
     float: left;
     margin-right: 1em;
   }
+}
+
+.adeuxContainer {
+  text-align: justify;
 }

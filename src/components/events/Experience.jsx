@@ -5,11 +5,11 @@ import classes from './Events.module.scss'
 
 export default function Experience() {
   return (
-    <div>
+    <div className={classes.experienceContainer}>
       <p className={classes.mediaTitle}>Experience</p>
       { LuxuryEventsInformation && LuxuryEventsInformation["experience"].map((para) => {
         return (
-          <p>{para["paragraph"]}</p>
+          <p className={classes.experienceParagraph}>{para["paragraph"]}</p>
         )
       })}
       <LuxuryMedia />
