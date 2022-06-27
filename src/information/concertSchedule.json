@@ -113,6 +113,17 @@
     },
     {
       "id": "1",
+      "date": "30th",
+      "dateMonth": "June",
+      "year": "2022",
+      "city": "London",
+      "venue": "Queen Elizabeth Hall, Southbank Centre",
+      "repertoire": "Corinthian Orchestra",
+      "start_time": "",
+      "ticket_link": "http://www.corinthianorchestra.org.uk/"
+    },
+    {
+      "id": "1",
       "date": "2nd",
       "dateMonth": "July",
       "year": "2022",
