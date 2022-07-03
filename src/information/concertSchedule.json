@@ -135,6 +135,17 @@
     },
     {
       "id": "1",
+      "date": "10th",
+      "dateMonth": "July",
+      "year": "2022",
+      "city": "London",
+      "venue": "LSO St. Luke's",
+      "repertoire": "London Choral Society",
+      "start_time": "7:30pm",
+      "ticket_link": "https://www.thelcs.org/season"
+    },
+    {
+      "id": "1",
       "date": "14th",
       "dateMonth": "July",
       "year": "2022",
