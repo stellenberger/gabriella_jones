@@ -234,6 +234,28 @@
     },
     {
       "id": "1",
+      "date": "8th",
+      "dateMonth": "October",
+      "year": "2022",
+      "city": "London",
+      "venue": "",
+      "repertoire": "Ealing Symphony Orchestra",
+      "start_time": "7:30pm",
+      "ticket_link": "https://www.ealingso.org.uk/whats-on/20221008"
+    },
+    {
+      "id": "1",
+      "date": "16th",
+      "dateMonth": "October",
+      "year": "2022",
+      "city": "London",
+      "venue": "St Johns Smith Square",
+      "repertoire": "Outcry Ensemble",
+      "start_time": "6:30pm",
+      "ticket_link": "https://www.sjss.org.uk/events/outcry-ensemble"
+    },
+    {
+      "id": "1",
       "date": "23rd",
       "dateMonth": "October",
       "year": "2022",
@@ -242,6 +264,17 @@
       "repertoire": "Solo Recital",
       "start_time": "3pm",
       "ticket_link": "https://www.gloucestermusicsociety.org.uk/"
+    },
+    {
+      "id": "1",
+      "date": "26th",
+      "dateMonth": "October",
+      "year": "2022",
+      "city": "London",
+      "venue": "Royal Festival Hall",
+      "repertoire": "London Philharmonic Orchestra",
+      "start_time": "7:30pm",
+      "ticket_link": "https://tickets.lpo.org.uk/events/122314"
     },
     {
       "id": "1",
