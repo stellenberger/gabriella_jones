@@ -179,6 +179,17 @@
     },
     {
       "id": "1",
+      "date": "26th",
+      "dateMonth": "November",
+      "year": "2022",
+      "city": "London",
+      "venue": "",
+      "repertoire": "Ealing Symphony Orchestra",
+      "start_time": "7:30pm",
+      "ticket_link": "https://www.ealingso.org.uk/whats-on/20221126"
+    },
+    {
+      "id": "1",
       "date": "27th",
       "dateMonth": "November",
       "year": "2022",
@@ -187,6 +198,50 @@
       "repertoire": "Solo Recital",
       "start_time": "3pm",
       "ticket_link": "https://www.bournemouthchambermusic.co.uk/"
+    },
+    {
+      "id": "1",
+      "date": "3rd",
+      "dateMonth": "December",
+      "year": "2022",
+      "city": "Guildford",
+      "venue": "",
+      "repertoire": "Guest Soloist with Corra Sound",
+      "start_time": "7pm",
+      "ticket_link": "https://www.corrasound.co.uk/"
+    },
+    {
+      "id": "1",
+      "date": "4th",
+      "dateMonth": "December",
+      "year": "2022",
+      "city": "West Meon",
+      "venue": "",
+      "repertoire": "Solo Recital",
+      "start_time": "12pm",
+      "ticket_link": ""
+    },
+    {
+      "id": "1",
+      "date": "10th",
+      "dateMonth": "December",
+      "year": "2022",
+      "city": "London",
+      "venue": "",
+      "repertoire": "Elstree Mozart Player",
+      "start_time": "7:30pm",
+      "ticket_link": "https://elstreemozartplayers.co.uk/"
+    },
+    {
+      "id": "1",
+      "date": "15th",
+      "dateMonth": "December",
+      "year": "2022",
+      "city": "London",
+      "venue": "",
+      "repertoire": "Guest Soloist with Imperial College Choir",
+      "start_time": "7:30pm",
+      "ticket_link": "https://union.ic.ac.uk/arts/choir/calendar/"
     },
     {
       "id": "1",
