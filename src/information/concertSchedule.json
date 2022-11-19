@@ -268,17 +268,6 @@
     {
       "id": "1",
       "date": "26th",
-      "dateMonth": "November",
-      "year": "2022",
-      "city": "London",
-      "venue": "",
-      "repertoire": "Ealing Symphony Orchestra",
-      "start_time": "7:30pm",
-      "ticket_link": "https://www.ealingso.org.uk/whats-on/20221126"
-    },
-    {
-      "id": "1",
-      "date": "26th",
       "dateMonth": "October",
       "year": "2022",
       "city": "London",
@@ -286,6 +275,17 @@
       "repertoire": "London Philharmonic Orchestra",
       "start_time": "7:30pm",
       "ticket_link": "https://tickets.lpo.org.uk/events/122314"
+    },
+    {
+      "id": "1",
+      "date": "26th",
+      "dateMonth": "November",
+      "year": "2022",
+      "city": "London",
+      "venue": "",
+      "repertoire": "Ealing Symphony Orchestra",
+      "start_time": "7:30pm",
+      "ticket_link": "https://www.ealingso.org.uk/whats-on/20221126"
     },
     {
       "id": "1",
