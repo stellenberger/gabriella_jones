@@ -333,14 +333,36 @@
     },
     {
       "id": "1",
-      "date": "10th",
+      "date": "6th",
       "dateMonth": "December",
       "year": "2022",
       "city": "London",
       "venue": "",
-      "repertoire": "Elstree Mozart Player",
+      "repertoire": "Battersea Choral Society",
       "start_time": "7:30pm",
-      "ticket_link": "https://elstreemozartplayers.co.uk/"
+      "ticket_link": "http://www.batterseachoralsociety.org/"
+    },
+    {
+      "id": "1",
+      "date": "7th",
+      "dateMonth": "December",
+      "year": "2022",
+      "city": "London",
+      "venue": "",
+      "repertoire": "Wimbledon Guild Carol Service",
+      "start_time": "7pm",
+      "ticket_link": "https://www.wimbledonguild.co.uk/events/435/christmas-carol-service"
+    },
+    {
+      "id": "1",
+      "date": "11th",
+      "dateMonth": "December",
+      "year": "2022",
+      "city": "London",
+      "venue": "",
+      "repertoire": "Carols in Shoreditch",
+      "start_time": "6pm",
+      "ticket_link": "https://saint.church/sunday/"
     },
     {
       "id": "1",
@@ -352,6 +374,17 @@
       "repertoire": "Guest Soloist with Imperial College Choir",
       "start_time": "7:30pm",
       "ticket_link": "https://union.ic.ac.uk/arts/choir/calendar/"
+    },
+    {
+      "id": "1",
+      "date": "25th",
+      "dateMonth": "December",
+      "year": "2022",
+      "city": "London",
+      "venue": "",
+      "repertoire": "Christmas at the Connaught Hotel",
+      "start_time": "1pm - 6pm",
+      "ticket_link": "https://www.the-connaught.co.uk/"
     },
     {
       "id": "1",
