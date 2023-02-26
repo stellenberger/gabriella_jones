@@ -1,16 +1,16 @@
 This is the personal website for harpist Gabriella Jones
 
-How to add more concerts. 
+How to add more concerts.
 
 Navigate to the file named `concertSchedule.json`
 
 You can find it in `src/information/concertSchedule.json`
 
-When you click on it, you are met with a lot of writing. 
+When you click on it, you are met with a lot of writing.
 
 This writing is ordered by year (the most recent year being first), and then by month (early in the year, to later in the year).
 
-Add in the details, following the *exact same structure* as the previous gigs. Looks something like this: 
+Add in the details, following the *exact same structure* as the previous gigs. Looks something like this:
 
 
 ```
@@ -27,6 +27,8 @@ Add in the details, following the *exact same structure* as the previous gigs. L
   },
 ```
 
-a little note: you can use the above as a copy/paste reference. The struture needs to be exactly the same. 
+a little note: you can use the above as a copy/paste reference. The struture needs to be exactly the same.
 
 If this is the last entry, you must *omit* the final comma (`,`)
+
+To start it, run `npm start`
