@@ -83,11 +83,44 @@
       "date": "26th",
       "dateMonth": "March",
       "year": "2023",
-      "city": "",
-      "venue": "Little Gaddesden",
+      "city": "Little Gaddesden",
+      "venue": "",
       "repertoire": "Solo Recital",
-      "start_time": "TBC",
+      "start_time": "",
       "ticket_link": "https://littlegaddesden.org.uk/clubs-and-institutions/music-club/"
+    },
+    {
+      "id": "1",
+      "date": "1st",
+      "dateMonth": "April",
+      "year": "2023",
+      "city": "London",
+      "venue": "",
+      "repertoire": "Battersea Choral Society",
+      "start_time": "7.30pm",
+      "ticket_link": "http://www.batterseachoralsociety.org/"
+    },
+    {
+      "id": "1",
+      "date": "18th",
+      "dateMonth": "April",
+      "year": "2023",
+      "city": "London",
+      "venue": "Spencer House",
+      "repertoire": "Private performance for HRH Duke of Edinburgh",
+      "start_time": "7pm",
+      "ticket_link": "https://www.sjp.org.uk/support-us/the-wren-project/?gclid=CjwKCAjwv8qkBhAnEiwAkY-ahqbdQ3gkcwgOQfqFpicNlywrPrSYXIrHa6QFBp10iUPfYaXGtJpmThoC4pQQAvD_BwE"
+    },
+    {
+      "id": "1",
+      "date": "22nd",
+      "dateMonth": "April",
+      "year": "2023",
+      "city": "London",
+      "venue": "St. James Church, Muswell Hill",
+      "repertoire": "Meridian Sinfonia",
+      "start_time": "7.30pm",
+      "ticket_link": "https://www.northlondonchorus.org/"
     },
     {
       "id": "1",
@@ -106,10 +139,43 @@
       "dateMonth": "May",
       "year": "2023",
       "city": "Suffolk",
-      "venue": "",
-      "repertoire": "Guest Soloist with Voxcetera",
-      "start_time": "",
+      "venue": "St Mary’s Church, Newmarket",
+      "repertoire": "Guest soloist with Voxcetera",
+      "start_time": "4:30pm",
       "ticket_link": "https://www.voxcetera.co.uk/"
+    },
+    {
+      "id": "1",
+      "date": "11th",
+      "dateMonth": "June",
+      "year": "2023",
+      "city": "Cambridge",
+      "venue": "All Saints' Church, Cottenham",
+      "repertoire": "Guest Soloist with Camerata East",
+      "start_time": "4pm",
+      "ticket_link": "https://camerataeast.co.uk/concerts/"
+    },
+    {
+      "id": "1",
+      "date": "15th",
+      "dateMonth": "June",
+      "year": "2023",
+      "city": "London",
+      "venue": "St. James’ Piccadilly",
+      "repertoire": "Private Performance ",
+      "start_time": "4pm",
+      "ticket_link": "https://www.sjp.org.uk/support-us/the-wren-project/?gclid=CjwKCAjwv8qkBhAnEiwAkY-ahqbdQ3gkcwgOQfqFpicNlywrPrSYXIrHa6QFBp10iUPfYaXGtJpmThoC4pQQAvD_BwE"
+    },
+    {
+      "id": "1",
+      "date": "24th",
+      "dateMonth": "June",
+      "year": "2023",
+      "city": "London",
+      "venue": "St. Paul’s Church",
+      "repertoire": "Wimbledon Symphony Orchestra",
+      "start_time": "7.30pm",
+      "ticket_link": "https://www.wimso.org.uk/"
     },
     {
       "id": "1",
@@ -121,6 +187,17 @@
       "repertoire": "Royal Orchestral Society",
       "start_time": "7pm",
       "ticket_link": "https://www.royalorchestralsociety.org.uk/"
+    },
+    {
+      "id": "1",
+      "date": "19th",
+      "dateMonth": "July",
+      "year": "2023",
+      "city": "Yorkshire",
+      "venue": "",
+      "repertoire": "Outreach Project Day for Howdenshire Music",
+      "start_time": "",
+      "ticket_link": ""
     },
     {
       "id": "1",
