@@ -212,6 +212,61 @@
     },
     {
       "id": "1",
+      "date": "11th",
+      "dateMonth": "November",
+      "year": "2023",
+      "city": "London",
+      "venue": "St. Johns' Smith Square",
+      "repertoire": "Fulham Symphony Orchestra",
+      "start_time": "7.30pm",
+      "ticket_link": "https://fso.org.uk/"
+    },
+    {
+      "id": "1",
+      "date": "19th",
+      "dateMonth": "November",
+      "year": "2023",
+      "city": "Surrey",
+      "venue": "West Meon",
+      "repertoire": "Private Recital",
+      "start_time": "1pm",
+      "ticket_link": ""
+    },
+    {
+      "id": "1",
+      "date": "2nd",
+      "dateMonth": "December",
+      "year": "2023",
+      "city": "Surrey",
+      "venue": "St. James' Church, Hampton Hill",
+      "repertoire": "Guest Soloist with Concordia Voices",
+      "start_time": "7.30pm",
+      "ticket_link": "https://www.concordiavoices.com/"
+    },
+    {
+      "id": "1",
+      "date": "4th",
+      "dateMonth": "December",
+      "year": "2023",
+      "city": "London",
+      "venue": "St. Johns' Smith Square",
+      "repertoire": "Corinthian Chamber Orchestra",
+      "start_time": "7.30pm",
+      "ticket_link": "https://www.corinthianorchestra.org.uk/concerts"
+    },
+    {
+      "id": "1",
+      "date": "25th",
+      "dateMonth": "December",
+      "year": "2023",
+      "city": "London",
+      "venue": "The Connaught Hotel",
+      "repertoire": "Christmas at The Connaught Hotel",
+      "start_time": "1pm-6pm",
+      "ticket_link": "https://www.the-connaught.co.uk/"
+    },
+    {
+      "id": "1",
       "date": "21st",
       "dateMonth": "January",
       "year": "2022",
