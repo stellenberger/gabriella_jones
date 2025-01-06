@@ -14,6 +14,7 @@ const Schedule = () => {
   }, [year]);
 
   const years = [
+    { id: 1, year: "2025" },
     { id: 1, year: "2024" },
     { id: 2, year: "2023" },
     { id: 3, year: "2022" },
@@ -78,6 +79,11 @@ const Schedule = () => {
               </div>
             );
           })}
+        {currentYearConcerts.length === 0 && (
+          <p className={classes.noConcerts}>
+            Check back soon for upcoming concerts
+          </p>
+        )}
       </div>
     </div>
   );

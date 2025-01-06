@@ -30,6 +30,7 @@
     background-color: gray;
     color: white;
     transition: 0.5s;
+    cursor: pointer;
   }
   @media screen and (max-width: 786px) {
     width: 50%;
@@ -47,7 +48,7 @@
 }
 
 .scheduleCard {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   display: flex;
   min-height: 200px;
   align-items: center;
