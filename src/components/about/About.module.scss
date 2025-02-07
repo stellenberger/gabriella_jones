@@ -119,9 +119,7 @@
   margin: auto;
   font-size: 25px;
   border-bottom: 1px solid black;
-  width: 70%;
   padding: 5px;
-  text-align: center;
   @media screen and (max-width: 786px) {
     width: 100%;
     margin-top: 10px;
@@ -133,10 +131,6 @@
   @extend .repertoireTitle;
   margin-top: 1em;
   font-size: 20px;
-}
-
-.repertoireName {
-  text-align: center;
 }
 
 .adeuxTitle {
