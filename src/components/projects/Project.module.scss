@@ -11,7 +11,7 @@
   }
 }
 
-.yearNavigator {
+.projectNavigator {
   width: 10%;
   margin-top: 5vh;
   text-align: center;
@@ -20,6 +20,11 @@
     padding: 0;
     display: flex;
   }
+}
+
+.projectContent {
+  padding: 10px;
+  font-size: 17px;
 }
 
 .project {

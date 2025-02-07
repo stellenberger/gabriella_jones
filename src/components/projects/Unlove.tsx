@@ -81,6 +81,7 @@ export default function Unlove() {
         the stories we tell through art. I hope it creates a lasting connection
         not just to the music, but to the creative journey behind it.
       </p>
+      <b>Why?</b>
       <p>
         After a decade of performing new music without recording it, I've come
         to appreciate the importance of preserving these works—not just for

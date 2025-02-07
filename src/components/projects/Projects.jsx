@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import classes from "./Project.module.scss";
 import Unlove from "./Unlove.tsx";
+import InnerNoise from "./InnerNoise.tsx";
 
 const Project = () => {
-  const [project, setProject] = useState("");
+  const [project, setProject] = useState("unlove");
 
   const projects = [
     { id: 1, project: "[UN]Love", accessor: "unlove" },
@@ -19,6 +20,10 @@ const Project = () => {
     switch (project) {
       case "unlove":
         return <Unlove />;
+      case "inner_noise":
+        return <InnerNoise />;
+      case "freude":
+        return "Coming soon, autumn 2025.";
       default:
         return null;
     }
@@ -26,7 +31,6 @@ const Project = () => {
 
   return (
     <div className={classes.projectContainer}>
-      <div className={classes.projectNavigator}>{renderProject()}</div>
       <div className={classes.projectNavigator}>
         {projects &&
           projects.map((project) => {
@@ -34,14 +38,14 @@ const Project = () => {
               <p
                 className={classes.project}
                 id={project.id}
-                onClick={() => handleProjectClick(project.project)}
+                onClick={() => handleProjectClick(project.accessor)}
               >
                 {project.project}
               </p>
             );
           })}
       </div>
-      <p>Projects</p>
+      <div className={classes.projectContent}>{renderProject()}</div>
     </div>
   );
 };
