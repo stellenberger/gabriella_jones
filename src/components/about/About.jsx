@@ -17,7 +17,7 @@ const About = () => {
       case "biography":
         return <Biography />;
       case "awards":
-        return <Awards />;
+        return;
       case "repertoire":
         return <Repertoire />;
       default:
@@ -30,11 +30,17 @@ const About = () => {
         <a href="/about#biography" onClick={() => handleClick("biography")}>
           <div className={classes.links}>Biography</div>
         </a>
-        <a href="/about#awards" onClick={() => handleClick("awards")}>
-          <div className={classes.links}>Awards</div>
-        </a>
         <a href="/about#repertoire" onClick={() => handleClick("repertoire")}>
           <div className={classes.links}>Repertoire</div>
+        </a>
+        <a
+          href="/about#collaborations"
+          onClick={() => handleClick("collaborations")}
+        >
+          <div className={classes.links}>Collaborations</div>
+        </a>
+        <a href="/about#contact" onClick={() => handleClick("contact")}>
+          <div className={classes.links}>Contact</div>
         </a>
       </div>
       <div className={classes.aboutContent}>
