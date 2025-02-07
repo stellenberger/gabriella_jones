@@ -11,23 +11,15 @@ const Contact = () => {
   ];
   return (
     <div className={classes.contactContainer}>
-      <div className={classes.contactImage}>
-        <img src={contactImage} alt="Gabriella playing the harp" />
-      </div>
-
-      <div className={classes.contactInformation}>
-        {personalDetails &&
-          personalDetails.map((personal) => {
-            return (
-              <div className={classes.personalContactDetails}>
-                <p className={classes.contactTitle}>General Enquiries</p>
-                <p>{personal.name}</p>
-                <p>{personal.email}</p>
-                <p>{personal.mobile_number}</p>
-              </div>
-            );
-          })}
-      </div>
+      {personalDetails &&
+        personalDetails.map((personal) => {
+          return (
+            <div>
+              <p className={classes.contactTitle}>General Enquiries</p>
+              <p>{personal.email}</p>
+            </div>
+          );
+        })}
     </div>
   );
 };

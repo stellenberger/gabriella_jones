@@ -28,6 +28,17 @@ const About = () => {
         return null;
     }
   };
+
+  const loadSponsors = () => {
+    switch (subPage) {
+      case "biography":
+        return <Sponsors />;
+      case "collaborations":
+        return <Sponsors />;
+      default:
+        return null;
+    }
+  };
   return (
     <div className={classes.aboutContainer}>
       <div className={classes.sideNav}>
@@ -49,7 +60,7 @@ const About = () => {
       </div>
       <div className={classes.aboutContent}>
         {loadPage()}
-        <Sponsors />
+        {loadSponsors()}
       </div>
     </div>
   );
