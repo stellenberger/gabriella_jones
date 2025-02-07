@@ -5,10 +5,9 @@ import {
   About,
   Schedule,
   Media,
-  Contact,
   Footer,
   Topnav,
-  Events,
+  Projects,
 } from "../index";
 import classes from "./App.module.scss";
 import ReactGa from "react-ga";
@@ -56,7 +55,7 @@ function App() {
             <Route exact path="/about" component={About} />
             <Route exact path="/schedule" component={Schedule} />
             <Route exact path="/media" component={Media} />
-            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/projects" component={Projects} />
             {/* <Route exact path='/luxury-events' component={Events} /> */}
           </Switch>
         </div>
