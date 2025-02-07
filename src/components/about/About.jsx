@@ -4,6 +4,8 @@ import Biography from "./Biography";
 import Awards from "./Awards";
 import Repertoire from "./Repertoire";
 import Sponsors from "./Sponsors";
+import Collaborations from "./Collaborations";
+import Contact from "../contact/Contact";
 
 const About = () => {
   const [subPage, setSubPage] = useState("biography");
@@ -16,8 +18,10 @@ const About = () => {
     switch (subPage) {
       case "biography":
         return <Biography />;
-      case "awards":
-        return;
+      case "collaborations":
+        return <Collaborations />;
+      case "contact":
+        return <Contact />;
       case "repertoire":
         return <Repertoire />;
       default:

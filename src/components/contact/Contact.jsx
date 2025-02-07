@@ -20,7 +20,7 @@ const Contact = () => {
           personalDetails.map((personal) => {
             return (
               <div className={classes.personalContactDetails}>
-                <p className={classes.contactTitle}>Personal Contact</p>
+                <p className={classes.contactTitle}>General Enquiries</p>
                 <p>{personal.name}</p>
                 <p>{personal.email}</p>
                 <p>{personal.mobile_number}</p>

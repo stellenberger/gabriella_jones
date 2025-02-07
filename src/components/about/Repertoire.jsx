@@ -9,7 +9,6 @@ const Repertoire = () => {
         repertoire.repertoire.map((repertoire) => {
           return (
             <div>
-              <p className={classes.repertoireTitle}>Repertoire</p>
               <p className={classes.repertoireTypeTitle}>Solo</p>
               {repertoire.solo.map((piece) => {
                 return (
