@@ -1,11 +1,14 @@
 {
   "awards": [
-    {"award": "Making Music Selected Artist 2020-23"},
-    {"award": "Park Lane Group Young Artist 2018-22"},
-    {"award": "City Livery Club Music Prize 2018"},
-    {"award": "John Marson Harp Prize 2017/18"},
-    {"award": "Leverhulme Scholar 2018"},
-    {"award": "Trinity College London Scholar 2018"},
-    {"award": "Camac International Harp Competition (Ensemble) 1st Prize 2017"}
+    { "award": "4th Prize Hong Kong International Harp Competition 2023" },
+    { "award": "Making Music Selected Artist 2020-23" },
+    { "award": "Park Lane Group Young Artist 2018-22" },
+    { "award": "City Livery Club Music Prize 2018" },
+    { "award": "John Marson Harp Prize 2017/18" },
+    { "award": "Leverhulme Scholar 2018" },
+    { "award": "Trinity College London Scholar 2018" },
+    {
+      "award": "Camac International Harp Competition (Ensemble) 1st Prize 2017"
+    }
   ]
 }

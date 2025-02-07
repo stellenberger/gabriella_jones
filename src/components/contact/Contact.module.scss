@@ -1,45 +1,14 @@
 .contactContainer {
   display: flex;
   margin: auto;
-  width: 70%;
-  margin-top: 5vh;
   @media screen and (max-width: 786px) {
     width: 100%;
     display: block;
   }
-}
-
-.contactImage {
-  width: 50%;
-  text-align: center;
-  img {
-    margin: auto;
-    max-width: 70%;
-  }
-  @media screen and (max-width: 786px) {
-    width: 100%;
-    display: block;
-  }
-}
-
-.contactInformation {
-  width: 50%;
-  height: auto;
-  @media screen and (max-width: 786px) {
-    width: 100%;
-    display: block;
-    text-align: center;
-    margin: auto;
-  }
-}
-
-.personalContactDetails {
-  margin-top: 40px;
 }
 
 .contactTitle {
   border-bottom: 2px solid black;
-  max-width: 300px;
   padding-bottom: 10px;
   @media screen and (max-width: 786px) {
     width: 100%;

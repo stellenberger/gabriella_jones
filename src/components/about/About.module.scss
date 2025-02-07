@@ -88,15 +88,15 @@
 }
 
 .awardsContainer {
-  display: flex;
+  padding-top: 20px;
   justify-content: space-evenly;
   @media screen and (max-width: 786px) {
     display: block;
   }
+  .awardsTitle {
+    font-size: 20px;
+  }
   .highlightedPerformances {
-    width: 50%;
-    text-align: center;
-    
     .highlightedPerformancesTitle {
       margin: auto;
       font-size: 25px;
@@ -113,35 +113,13 @@
       font-size: 15px;
     }
   }
-  .awards {
-    .awardsTitle {
-      margin: auto;
-      font-size: 25px;
-      border-bottom: 1px solid black;
-      width: 70%;
-      padding: 5px;
-      @media screen and (max-width: 786px) {
-        width: 100%;
-        margin-top: 10px;
-        border-top: 1px solid black;
-      }
-    }
-    p {
-      font-size: 15px;
-    }
-    width: 50%;
-    text-align: center;
-    
-  }
 }
 
 .repertoireTitle {
   margin: auto;
   font-size: 25px;
   border-bottom: 1px solid black;
-  width: 70%;
   padding: 5px;
-  text-align: center;
   @media screen and (max-width: 786px) {
     width: 100%;
     margin-top: 10px;
@@ -153,10 +131,6 @@
   @extend .repertoireTitle;
   margin-top: 1em;
   font-size: 20px;
-}
-
-.repertoireName {
-  text-align: center;
 }
 
 .adeuxTitle {

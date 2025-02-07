@@ -4,6 +4,8 @@ import Biography from "./Biography";
 import Awards from "./Awards";
 import Repertoire from "./Repertoire";
 import Sponsors from "./Sponsors";
+import Collaborations from "./Collaborations";
+import Contact from "../contact/Contact";
 
 const About = () => {
   const [subPage, setSubPage] = useState("biography");
@@ -16,10 +18,23 @@ const About = () => {
     switch (subPage) {
       case "biography":
         return <Biography />;
-      case "awards":
-        return <Awards />;
+      case "collaborations":
+        return <Collaborations />;
+      case "contact":
+        return <Contact />;
       case "repertoire":
         return <Repertoire />;
+      default:
+        return null;
+    }
+  };
+
+  const loadSponsors = () => {
+    switch (subPage) {
+      case "biography":
+        return <Sponsors />;
+      case "collaborations":
+        return <Sponsors />;
       default:
         return null;
     }
@@ -30,16 +45,22 @@ const About = () => {
         <a href="/about#biography" onClick={() => handleClick("biography")}>
           <div className={classes.links}>Biography</div>
         </a>
-        <a href="/about#awards" onClick={() => handleClick("awards")}>
-          <div className={classes.links}>Awards</div>
-        </a>
         <a href="/about#repertoire" onClick={() => handleClick("repertoire")}>
           <div className={classes.links}>Repertoire</div>
+        </a>
+        <a
+          href="/about#collaborations"
+          onClick={() => handleClick("collaborations")}
+        >
+          <div className={classes.links}>Collaborations</div>
+        </a>
+        <a href="/about#contact" onClick={() => handleClick("contact")}>
+          <div className={classes.links}>Contact</div>
         </a>
       </div>
       <div className={classes.aboutContent}>
         {loadPage()}
-        <Sponsors />
+        {loadSponsors()}
       </div>
     </div>
   );

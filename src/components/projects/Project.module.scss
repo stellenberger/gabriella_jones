@@ -1,0 +1,45 @@
+.projectContainer {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 50px;
+  @media screen and (max-width: 786px) {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+  }
+}
+
+.projectNavigator {
+  width: 10%;
+  margin-top: 5vh;
+  text-align: center;
+  @media screen and (max-width: 786px) {
+    width: 100%;
+    padding: 0;
+    display: flex;
+  }
+}
+
+.projectContent {
+  padding: 10px;
+  font-size: 17px;
+}
+
+.project {
+  font-size: 20px;
+  padding: 10px;
+  &:hover {
+    background-color: gray;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 786px) {
+    width: 50%;
+    &:hover {
+      transition: 0s;
+    }
+  }
+}
