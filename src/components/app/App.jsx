@@ -35,6 +35,7 @@ function App() {
   };
   useEffect(() => {
     styling();
+    console.log("trig");
     ReactGa.initialize("UA-175013754-2");
 
     // to report page view

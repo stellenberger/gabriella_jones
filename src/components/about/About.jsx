@@ -34,7 +34,7 @@ const About = () => {
       case "biography":
         return <Sponsors />;
       case "collaborations":
-        return <Sponsors />;
+        return <Collaborations />;
       default:
         return null;
     }
