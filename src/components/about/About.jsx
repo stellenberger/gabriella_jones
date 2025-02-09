@@ -33,8 +33,6 @@ const About = () => {
     switch (subPage) {
       case "biography":
         return <Sponsors />;
-      case "collaborations":
-        return <Collaborations />;
       default:
         return null;
     }

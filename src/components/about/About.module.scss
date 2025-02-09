@@ -40,6 +40,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 0px;
   }
   a {
     text-decoration: none;
@@ -130,4 +131,31 @@
   @extend .repertoireTitle;
   margin-top: 1em;
   font-size: 20px;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  grid-gap: 10px;
+  grid-auto-rows: 400px;
+  .gridItem {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 30px;
+    text-align: center;
+    overflow: hidden;
+    background-color: #e6e6e6;
+    p {
+      .image {
+        height: 200px;
+        object-fit: cover;
+        max-width: 200px;
+      }
+      .logo {
+        width: 200px;
+        height: 140px;
+        object-fit: contain;
+      }
+    }
+  }
 }
