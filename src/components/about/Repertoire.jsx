@@ -9,7 +9,9 @@ const Repertoire = () => {
         repertoire.repertoire.map((repertoire) => {
           return (
             <div>
-              <p className={classes.repertoireTypeTitle}>Solo</p>
+              <p className={classes.repertoireTypeTitle}>
+                <b>Solo</b>
+              </p>
               {repertoire.solo.map((piece) => {
                 return (
                   <p>
@@ -17,7 +19,9 @@ const Repertoire = () => {
                   </p>
                 );
               })}
-              <p className={classes.repertoireTypeTitle}>Solo Transcriptions</p>
+              <p className={classes.repertoireTypeTitle}>
+                <b>Solo Transcriptions</b>
+              </p>
               {repertoire.soloTranscriptions.map((piece) => {
                 return (
                   <p>
@@ -25,7 +29,9 @@ const Repertoire = () => {
                   </p>
                 );
               })}
-              <p className={classes.repertoireTypeTitle}>Concerti</p>
+              <p className={classes.repertoireTypeTitle}>
+                <b>Concerti</b>
+              </p>
               {repertoire.concerti.map((piece) => {
                 return (
                   <p>
@@ -33,7 +39,9 @@ const Repertoire = () => {
                   </p>
                 );
               })}
-              <p className={classes.repertoireTypeTitle}>Contemporary Music</p>
+              <p className={classes.repertoireTypeTitle}>
+                <b>Contemporary Music</b>
+              </p>
               {repertoire.contemporaryMusic.map((piece) => {
                 return (
                   <p>
@@ -41,7 +49,9 @@ const Repertoire = () => {
                   </p>
                 );
               })}
-              <p className={classes.repertoireTypeTitle}>Harp and Choir</p>
+              <p className={classes.repertoireTypeTitle}>
+                <b>Harp and Choir</b>
+              </p>
               {repertoire.harpChoir.map((piece) => {
                 return (
                   <p>
@@ -49,7 +59,9 @@ const Repertoire = () => {
                   </p>
                 );
               })}
-              <p className={classes.repertoireTypeTitle}>Chamber Music</p>
+              <p className={classes.repertoireTypeTitle}>
+                <b>Chamber Music</b>
+              </p>
               {repertoire.chamberMusic.map((piece) => {
                 return (
                   <p>

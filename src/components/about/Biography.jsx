@@ -1,17 +1,13 @@
 import React from "react";
 import classes from "./About.module.scss";
-import { aboutPhoto } from "../../media";
+import bio from "../../media/gabriella-jones-photos-2025/media-elly-lucas/bio.jpg";
 import biography from "../../information/biography.json";
 import Awards from "./Awards";
 
 const Biography = () => {
   return (
     <div>
-      <img
-        src={aboutPhoto}
-        alt="gabriella jones standing at the harp"
-        className={classes.aboutPhoto}
-      />
+      <img src={bio} alt="gabriella jones" className={classes.aboutPhoto} />
       <p className={classes.aboutBio}>
         {biography.biography.map((section) => {
           return (
