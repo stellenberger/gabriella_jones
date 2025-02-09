@@ -11,7 +11,7 @@ import {
 } from "../index";
 import classes from "./App.module.scss";
 import ReactGa from "react-ga";
-import landingImage from "../../media/hero.jpg";
+import landingImage from "../../media/gabriella-jones-photos-2025/media-elly-lucas/landing-page.jpg";
 
 function App() {
   const [background, setBackground] = useState(null);
@@ -40,7 +40,6 @@ function App() {
     // to report page view
     ReactGa.pageview(window.location.pathname + window.location.search);
   }, []);
-  console.log(window.location.pathname);
 
   const changeColor = (color) => {
     setBackground(color);
@@ -59,7 +58,7 @@ function App() {
             {/* <Route exact path='/luxury-events' component={Events} /> */}
           </Switch>
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </BrowserRouter>
     </div>
   );
