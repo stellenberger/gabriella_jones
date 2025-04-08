@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import classes from "./About.module.scss";
 import Biography from "./Biography";
-import Awards from "./Awards";
 import Repertoire from "./Repertoire";
 import Sponsors from "./Sponsors";
 import Collaborations from "./Collaborations";
