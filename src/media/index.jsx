@@ -7,6 +7,7 @@ export { default as leverhulme } from "./leverhulme.png";
 export { default as makingMusic } from "./makingMusic.png";
 export { default as parkLane } from "./parkLane.png";
 export { default as helpMusicians } from "./helpMusicians.png";
+export { default as vwFoundation } from "./gabriella-jones-photos-2025/VW Foundation logo.png";
 export { default as Southbank } from "./southbank.JPG";
 
 // Luxury experience photos

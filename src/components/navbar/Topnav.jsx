@@ -16,6 +16,7 @@ const Topnav = ({ changeColor }) => {
   const backgroundColor = {
     backgroundColor: "#E6E6E6",
   };
+
   return (
     <div className={classes.navbar}>
       <div className={classes.navbarContent}>
