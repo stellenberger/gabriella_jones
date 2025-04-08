@@ -3,6 +3,14 @@ import React from "react";
 export default function Unlove() {
   return (
     <div>
+      <div className={"flex flex-between items-center bg-black"}>
+        <p>
+          <b>Introduction</b>
+        </p>
+        <p>
+          <b>Introduction</b>
+        </p>
+      </div>
       <p>
         The title [UN]Love encapsulates the duality of love's presence and
         absence. The prefix “UN” evokes themes of loss, unrequited love, and the

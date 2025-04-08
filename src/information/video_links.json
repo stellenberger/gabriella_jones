@@ -1,7 +1,17 @@
 [
-  { "video_link": "https://www.youtube.com/watch?v=OcTiYROVA2E" },
-  { "video_link": "https://www.youtube.com/watch?v=FNQWym9dS24" },
   {
-    "video_link": "https://www.youtube.com/watch?v=UUswe5oJRCk&feature=youtu.be"
+    "composer": "Debussy",
+    "title": "Images Oubliées",
+    "video_link": "https://www.youtube.com/watch?v=OcTiYROVA2E"
+  },
+  {
+    "composer": "Lizotte",
+    "title": "Suite Galactique: Exposphere",
+    "video_link": "https://www.youtube.com/watch?v=FNQWym9dS24"
+  },
+  {
+    "composer": "Rachmaninov",
+    "title": "Prelude No. 4 Opus 23",
+    "video_link": "https://www.youtube.com/watch?v=XU8NdCWyBJA"
   }
 ]
