@@ -9,6 +9,10 @@ export { default as parkLane } from "./parkLane.png";
 export { default as helpMusicians } from "./helpMusicians.png";
 export { default as vwFoundation } from "./gabriella-jones-photos-2025/VW Foundation logo.png";
 export { default as Southbank } from "./southbank.JPG";
+export { default as ApplePodcasts } from "./apple-podcasts.png";
+export { default as Spotify } from "./spotify.png";
+export { default as InstagramBlack } from "./instagram.png";
+export { default as InnerNoiseHero } from "./inner_noise_hero.png";
 
 // Luxury experience photos
 export { default as Experience1 } from "./luxury_photos/experience1.jpeg";

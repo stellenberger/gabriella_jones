@@ -10,8 +10,10 @@ const Videos = () => {
       {video_links.map((video) => {
         return (
           <Fragment key={video.id}>
-            <h1>{video.composer}</h1>
-            <p>By {video.title}</p>
+            <h1 className={"text-3xl"}>
+              <b>{video.composer}</b>
+            </h1>
+            <p>{video.title}</p>
             <div className={classes.videoContainer}>
               <div className={classes.videoWrapper}>
                 <ReactPlayer

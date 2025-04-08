@@ -36,7 +36,7 @@ const Project = () => {
           projects.map((project) => {
             return (
               <p
-                className={classes.project}
+                className={classes.project + " mt-2"}
                 id={project.id}
                 onClick={() => handleProjectClick(project.accessor)}
               >

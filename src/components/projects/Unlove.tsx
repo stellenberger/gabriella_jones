@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Unlove() {
   return (
-    <div>
+    <div className={"p-3"}>
       <div className={"flex justify-between items-center mb-5 w-xl"}>
         <p className={"text-2xl font-bold"}>
           <b>Introduction</b>

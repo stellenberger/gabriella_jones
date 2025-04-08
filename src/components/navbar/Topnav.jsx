@@ -25,7 +25,7 @@ const Topnav = ({ changeColor }) => {
             <img
               src={logo}
               alt="Site Logo"
-              className={classes.logo}
+              className={"h-5"}
               onClick={() => changeColor(backgroundHeroImage)}
             />
           </Link>
