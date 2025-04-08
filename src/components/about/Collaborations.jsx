@@ -1,24 +1,26 @@
 import React from "react";
 import classes from "./About.module.scss";
 import collaborations from "../../information/collaborations.json";
-import porsche from "../../media/gabriella-jones-photos-2025/collaborations/porsche.jpg";
-import porscheLogo from "../../media/gabriella-jones-photos-2025/collaborations/porscheLogo.png";
-import gherkin from "../../media/gabriella-jones-photos-2025/collaborations/gherkin.jpg";
-import gherkinLogo from "../../media/gabriella-jones-photos-2025/collaborations/gherkinLogo.png";
-import wallace from "../../media/gabriella-jones-photos-2025/collaborations/wallace.jpg";
-import wallaceLogo from "../../media/gabriella-jones-photos-2025/collaborations/wallaceLogo.png";
-import connaught from "../../media/gabriella-jones-photos-2025/collaborations/connaught.jpg";
-import connaughtLogo from "../../media/gabriella-jones-photos-2025/collaborations/connaughtLogo.png";
-import chiswick from "../../media/gabriella-jones-photos-2025/collaborations/chiswick.jpg";
-import chiswickLogo from "../../media/gabriella-jones-photos-2025/collaborations/chiswickLogo.png";
-import gucci from "../../media/gabriella-jones-photos-2025/collaborations/gucci.jpg";
-import gucciLogo from "../../media/gabriella-jones-photos-2025/collaborations/gucciLogo.png";
-import spencer from "../../media/gabriella-jones-photos-2025/collaborations/spencer.jpg";
-import spencerLogo from "../../media/gabriella-jones-photos-2025/collaborations/spencerLogo.svg";
-import afl from "../../media/gabriella-jones-photos-2025/collaborations/afl.jpg";
-import aflLogo from "../../media/gabriella-jones-photos-2025/collaborations/aflLogo.png";
+import {
+  porsche,
+  porscheLogo,
+  gherkin,
+  gherkinLogo,
+  wallace,
+  wallaceLogo,
+  connaught,
+  connaughtLogo,
+  chiswick,
+  chiswickLogo,
+  gucci,
+  gucciLogo,
+  spencer,
+  spencerLogo,
+  afl,
+  aflLogo,
+} from "../../media/gabriella-jones-photos-2025/collaborations/index.ts";
 
-const Collaborations = () => {
+export const Collaborations = () => {
   const collabs = [
     {
       image: porsche,
@@ -100,5 +102,3 @@ const Collaborations = () => {
     </div>
   );
 };
-
-export default Collaborations;

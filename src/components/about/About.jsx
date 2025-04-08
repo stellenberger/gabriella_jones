@@ -3,7 +3,7 @@ import classes from "./About.module.scss";
 import Biography from "./Biography";
 import Repertoire from "./Repertoire";
 import Sponsors from "./Sponsors";
-import Collaborations from "./Collaborations";
+import { Collaborations } from "./Collaborations";
 import Contact from "../contact/Contact";
 
 const About = () => {
