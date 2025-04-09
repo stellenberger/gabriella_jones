@@ -76,15 +76,15 @@
   display: flex;
   justify-content: space-between;
   @media screen and (max-width: 786px) {
-    display: block;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
   }
   img {
     margin-top: 50px;
     margin-bottom: 50px;
     height: 50px;
     @media screen and (max-width: 786px) {
-      height: 40%;
-      width: 40%;
       padding: 5%;
       margin: 0;
     }

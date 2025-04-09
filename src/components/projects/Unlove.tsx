@@ -2,12 +2,12 @@ import React from "react";
 
 export default function Unlove() {
   return (
-    <div className={"p-3"}>
+    <div className={"p-3 text-left"}>
       <div className={"flex justify-between items-center mb-5 w-xl"}>
-        <p className={"text-2xl font-bold"}>
+        <p className={"text-2xl font-bold max-sm:text-xl"}>
           <b>Introduction</b>
         </p>
-        <p className={"text-5xl font-bold"}>
+        <p className={"text-5xl font-bold max-sm:text-2xl"}>
           <b>[UN]Love</b>
         </p>
       </div>

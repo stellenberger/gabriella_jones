@@ -5,9 +5,9 @@
   margin: auto;
   margin-top: 5vh;
   @media screen and (max-width: 786px) {
+    margin-top: 1vh;
     display: block;
     width: 90%;
-    text-align: center;
   }
 }
 
@@ -86,6 +86,10 @@
   // position: relative; This is to fix a z index problem with mobile menu.
   height: 0;
   padding-bottom: 56.25%; /* 16:9 */
+  @media screen and (max-width: 786px) {
+    padding-bottom: 0;
+    height: 100%;
+  }
 }
 .videoWrapper iframe {
   // position: absolute; This is to fix a z index problem with mobile menu.

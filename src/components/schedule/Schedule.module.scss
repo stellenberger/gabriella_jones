@@ -17,9 +17,16 @@
   margin-top: 5vh;
   text-align: center;
   @media screen and (max-width: 786px) {
+    margin-top: 1vh;
+    overflow: scroll;
     width: 100%;
     padding: 0;
     display: flex;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+    ::-webkit-scrollbar {
+      display: none; /* Chrome, Safari, and Opera */
+    }
   }
 }
 
