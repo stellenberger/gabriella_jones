@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import classes from './Media.module.scss'
-import { Videos, Photos, Audio } from './index.jsx'
+import { Videos, Photos } from './index.jsx'
 const Media = () => {
   const [subPage, setSubPage] = useState('Photos')
   const handleClick = (page) => {
@@ -10,10 +10,8 @@ const Media = () => {
   const subpageSelect = () => {
     if(subPage === 'Photos') {
       return (<Photos />)
-    } else if (subPage === 'Videos') {
-      return (<Videos />)
     } else {
-      return (<Audio />)
+      return (<Videos />)
     }
   }
   return (
@@ -21,7 +19,6 @@ const Media = () => {
       <div className={classes.mediaNavigator}>
         <a href="/media#photos" onClick={() => handleClick('Photos')}><div className={classes.links}>Photos</div></a>
         <a href="/media#videos" onClick={() => handleClick('Videos')}><div className={classes.links}>Videos</div></a>
-        <a href="/media#audio" onClick={() => handleClick('Audio')}><div className={classes.links}>Audio</div></a>
       </div>
       <div className={classes.media}>
         { subpageSelect() }

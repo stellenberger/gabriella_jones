@@ -4,11 +4,13 @@
   margin: auto;
   justify-content: space-between;
   padding-bottom: 50px;
+  margin-top: 3vh;
   @media screen and (max-width: 786px) {
     display: block;
     width: 100%;
     text-align: center;
     margin-bottom: 0;
+    margin-top: 1vh;
   }
 }
 
