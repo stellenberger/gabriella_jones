@@ -3,12 +3,11 @@
   display: flex;
   justify-content: space-between;
   width: 70%;
-  margin: auto;
-  margin-top: 3vh;
+  margin: 0 auto;
+  margin-top: 1vh;
   @media screen and (max-width: 786px) {
     display: block;
     width: 90%;
-    margin-top: 1vh;
   }
 }
 
@@ -34,7 +33,6 @@
 .sideNav {
   width: 20%;
   font-size: 15px;
-  padding: 0px 10px;
   @media screen and (max-width: 786px) {
     width: 100%;
     font-size: 15px;
@@ -52,6 +50,7 @@
   }
   .links {
     padding: 10px;
+    text-align: left;
     &:hover {
       background-color: gray;
       color: white;
@@ -67,7 +66,7 @@
 }
 
 .aboutContent {
-  width: 85%;
+  width: 75%;
   @media screen and (max-width: 786px) {
     width: 100%;
   }

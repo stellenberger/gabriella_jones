@@ -1,15 +1,14 @@
 .projectContainer {
   display: flex;
   width: 70%;
-  margin: auto;
+  margin: 0 auto;
+  margin-top: 1vh;
   padding-bottom: 50px;
-  margin-top: 3vh;
   @media screen and (max-width: 786px) {
     display: block;
     width: 100%;
     text-align: center;
     margin-bottom: 0;
-    margin-top: 1vh;
   }
 }
 
@@ -25,12 +24,14 @@
 }
 
 .projectContent {
+  width: 85%;
   font-size: 17px;
 }
 
 .project {
   font-size: 15px;
   padding: 10px;
+  text-align: left;
   &:hover {
     background-color: gray;
     color: white;

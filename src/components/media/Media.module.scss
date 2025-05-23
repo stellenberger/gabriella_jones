@@ -2,10 +2,9 @@
   display: flex;
   justify-content: space-between;
   width: 70%;
-  margin: auto;
-  margin-top: 3vh;
+  margin: 0 auto;
+  margin-top: 1vh;
   @media screen and (max-width: 786px) {
-    margin-top: 1vh;
     display: block;
     width: 90%;
   }
@@ -14,7 +13,6 @@
 .mediaNavigator {
   width: 10%;
   font-size: 20px;
-  padding: 10px;
   @media screen and (max-width: 786px) {
     width: 100%;
     padding: 0;
@@ -28,6 +26,7 @@
   .links {
     padding: 10px;
     font-size: 15px;
+    text-align: left;
     &:hover {
       background-color: gray;
       color: white;
