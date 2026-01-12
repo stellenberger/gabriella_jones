@@ -32,3 +32,12 @@ a little note: you can use the above as a copy/paste reference. The struture nee
 If this is the last entry, you must *omit* the final comma (`,`)
 
 To start it, run `npm start`
+
+
+SANITY UPDATE
+
+To deploy
+
+Go to the `/sanity` directory
+
+run `npm run deploy`

@@ -1,17 +1,34 @@
 import React, { useState, useEffect } from "react";
 import classes from "./Schedule.module.scss";
 import concertSchedule from "../../information/concertSchedule.json";
+import { fetchConcerts } from "../../sanity/client";
 
 const Schedule = () => {
   const [year, setYear] = useState(new Date().getFullYear().toString()); // this will hold the current year by default and changes when user selects another year
+  const [allConcerts, setAllConcerts] = useState([]); // all concerts from CMS (or fallback)
   const [currentYearConcerts, setCurrentYearConcerts] = useState([]); // holds concerts of the current year
 
   useEffect(() => {
-    let currentYear = Concerts.filter((concert) => {
-      return concert.year === year;
-    });
-    setCurrentYearConcerts(currentYear);
-  }, [year]);
+    const loadConcerts = async () => {
+      try {
+        const cmsConcerts = await fetchConcerts();
+        if (Array.isArray(cmsConcerts) && cmsConcerts.length > 0) {
+          setAllConcerts(cmsConcerts);
+          return;
+        }
+      } catch (e) {
+        // fall back below
+      }
+      // Fallback to local JSON if CMS is empty/unavailable
+      // setAllConcerts(concertSchedule.concerts || []);
+    };
+    loadConcerts();
+  }, []);
+
+  useEffect(() => {
+    const filtered = (allConcerts || []).filter((concert) => concert.year === year);
+    setCurrentYearConcerts(filtered);
+  }, [year, allConcerts]);
 
   const years = [
     { id: 1, year: "2025" },
@@ -23,8 +40,6 @@ const Schedule = () => {
     { id: 6, year: "2019" },
     { id: 7, year: "2018" },
   ];
-
-  const Concerts = concertSchedule.concerts;
 
   const handleYearClick = (year) => {
     setYear(year);
@@ -59,7 +74,7 @@ const Schedule = () => {
             return (
               <div
                 className={classes.scheduleCard}
-                id={concert.id}
+                id={concert.id || concert._id}
                 style={color}
               >
                 <div className={classes.concertDate}>
