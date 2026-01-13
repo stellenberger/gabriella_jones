@@ -33,14 +33,18 @@ const Project = () => {
     <div className={classes.projectContainer}>
       <div className={classes.projectNavigator}>
         {projects &&
-          projects.map((project) => {
+          projects.map((p) => {
             return (
               <p
-                className={classes.project + " mt-2"}
-                id={project.id}
-                onClick={() => handleProjectClick(project.accessor)}
+                className={
+                  classes.project +
+                  " mt-2 " +
+                  (p.accessor === project ? " " + classes.projectActive : "")
+                }
+                id={p.id}
+                onClick={() => handleProjectClick(p.accessor)}
               >
-                {project.project}
+                {p.project}
               </p>
             );
           })}

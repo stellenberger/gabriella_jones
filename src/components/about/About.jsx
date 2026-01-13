@@ -40,19 +40,19 @@ const About = () => {
     <div className={classes.aboutContainer}>
       <div className={classes.sideNav}>
         <a href="/about#biography" onClick={() => handleClick("biography")}>
-          <div className={classes.links}>Biography</div>
+          <div className={`${classes.links} ${subPage === "biography" ? classes.linksActive : ""}`}>Biography</div>
         </a>
         <a href="/about#repertoire" onClick={() => handleClick("repertoire")}>
-          <div className={classes.links}>Repertoire</div>
+          <div className={`${classes.links} ${subPage === "repertoire" ? classes.linksActive : ""}`}>Repertoire</div>
         </a>
         <a
           href="/about#collaborations"
           onClick={() => handleClick("collaborations")}
         >
-          <div className={classes.links}>Collaborations</div>
+          <div className={`${classes.links} ${subPage === "collaborations" ? classes.linksActive : ""}`}>Collaborations</div>
         </a>
         <a href="/about#contact" onClick={() => handleClick("contact")}>
-          <div className={classes.links}>Contact</div>
+          <div className={`${classes.links} ${subPage === "contact" ? classes.linksActive : ""}`}>Contact</div>
         </a>
       </div>
       <div className={classes.aboutContent}>

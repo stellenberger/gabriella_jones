@@ -14,6 +14,8 @@
 
 .projectNavigator {
   width: 15%;
+  position: sticky;
+  top: 80px;
   @media screen and (max-width: 786px) {
     width: 100%;
     padding: 0;
@@ -45,4 +47,9 @@
       transition: 0s;
     }
   }
+}
+
+.projectActive {
+  background-color: black;
+  color: white;
 }
