@@ -3,6 +3,48 @@ import classes from "./Schedule.module.scss";
 import concertSchedule from "../../information/concertSchedule.json";
 import { fetchConcerts } from "../../sanity/client";
 
+const monthNameToIndex = (monthName) => {
+  if (!monthName) return 0;
+  const m = String(monthName).toLowerCase();
+  const map = {
+    january: 1,
+    february: 2,
+    march: 3,
+    april: 4,
+    may: 5,
+    june: 6,
+    july: 7,
+    august: 8,
+    september: 9,
+    october: 10,
+    november: 11,
+    december: 12,
+  };
+  if (map[m]) return map[m];
+  let idx = 0;
+  Object.keys(map).forEach((key) => {
+    if (m.includes(key)) idx = Math.max(idx, map[key]);
+  });
+  return idx;
+};
+
+const dayStringToNumber = (day) => {
+  if (!day) return 0;
+  const n = parseInt(String(day).toLowerCase().replace(/(st|nd|rd|th)$/i, ""), 10);
+  return Number.isFinite(n) ? n : 0;
+};
+
+const orderByMonthDayDesc = (items) => {
+  return [...items].sort((a, b) => {
+    const monthA = monthNameToIndex(a?.dateMonth);
+    const monthB = monthNameToIndex(b?.dateMonth);
+    if (monthA !== monthB) return monthB - monthA; // desc by month
+    const dayA = dayStringToNumber(a?.date);
+    const dayB = dayStringToNumber(b?.date);
+    return dayB - dayA; // desc by day
+  });
+};
+
 const Schedule = () => {
   const [year, setYear] = useState(new Date().getFullYear().toString()); // this will hold the current year by default and changes when user selects another year
   const [allConcerts, setAllConcerts] = useState([]); // all concerts from CMS (or fallback)
@@ -27,19 +69,19 @@ const Schedule = () => {
 
   useEffect(() => {
     const filtered = (allConcerts || []).filter((concert) => concert.year === year);
-    setCurrentYearConcerts(filtered);
+    const ordered = orderByMonthDayDesc(filtered);
+    setCurrentYearConcerts(ordered);
   }, [year, allConcerts]);
 
-  const years = [
-    { id: 1, year: "2025" },
-    { id: 1, year: "2024" },
-    { id: 2, year: "2023" },
-    { id: 3, year: "2022" },
-    { id: 4, year: "2021" },
-    { id: 5, year: "2020" },
-    { id: 6, year: "2019" },
-    { id: 7, year: "2018" },
-  ];
+  const years = (() => {
+    const start = 2018;
+    const end = new Date().getFullYear();
+    const list = [];
+    for (let y = end, id = 1; y >= start; y--, id++) {
+      list.push({ id, year: String(y) });
+    }
+    return list;
+  })();
 
   const handleYearClick = (year) => {
     setYear(year);
@@ -49,14 +91,14 @@ const Schedule = () => {
     <div className={classes.scheduleContainer}>
       <div className={classes.yearNavigator}>
         {years &&
-          years.map((year) => {
+          years.map((y) => {
             return (
               <p
-                className={classes.year}
-                id={year.id}
-                onClick={() => handleYearClick(year.year)}
+                className={`${classes.year} ${y.year === year ? classes.yearActive : ""}`}
+                id={y.id}
+                onClick={() => handleYearClick(y.year)}
               >
-                {year.year}
+                {y.year}
               </p>
             );
           })}
@@ -75,19 +117,23 @@ const Schedule = () => {
               <div
                 className={classes.scheduleCard}
                 id={concert.id || concert._id}
+                key={concert.id || concert._id || index}
                 style={color}
               >
                 <div className={classes.concertDate}>
-                  <p>
-                    <span>{concert.date}</span> {concert.dateMonth}
-                  </p>
+                  <div className={classes.dateBadge}>
+                    <div className={classes.dateDay}>{concert.date}</div>
+                    <div className={classes.dateMonth}>
+                      {concert.dateMonth}
+                    </div>
+                  </div>
                 </div>
                 <div className={classes.concertInformation}>
                   <p className={classes.city}>{concert.city}</p>
                   <p>{concert.venue}</p>
                   <p>{concert.repertoire}</p>
                   <p>{concert.start_time}</p>
-                  <a href={concert.ticket_link} className={classes.buyTickets}>
+                  <a href={concert.ticket_link} className={classes.buyTickets} target="_blank" rel="noreferrer">
                     More Information
                   </a>
                 </div>
