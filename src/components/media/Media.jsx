@@ -17,8 +17,12 @@ const Media = () => {
   return (
     <div className={classes.mediaContainer}>
       <div className={classes.mediaNavigator}>
-        <a href="/media#photos" onClick={() => handleClick('Photos')}><div className={classes.links}>Photos</div></a>
-        <a href="/media#videos" onClick={() => handleClick('Videos')}><div className={classes.links}>Videos</div></a>
+        <a href="/media#photos" onClick={() => handleClick('Photos')}>
+          <div className={`${classes.links} ${subPage === 'Photos' ? classes.linksActive : ''}`}>Photos</div>
+        </a>
+        <a href="/media#videos" onClick={() => handleClick('Videos')}>
+          <div className={`${classes.links} ${subPage === 'Videos' ? classes.linksActive : ''}`}>Videos</div>
+        </a>
       </div>
       <div className={classes.media}>
         { subpageSelect() }

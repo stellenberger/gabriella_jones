@@ -13,6 +13,8 @@
 .mediaNavigator {
   width: 15%;
   font-size: 20px;
+  position: sticky;
+  top: 80px;
   @media screen and (max-width: 786px) {
     width: 100%;
     padding: 0;
@@ -38,6 +40,10 @@
         transition: 0s;
       }
     }
+  }
+  .linksActive {
+    background-color: black;
+    color: white;
   }
 }
 
